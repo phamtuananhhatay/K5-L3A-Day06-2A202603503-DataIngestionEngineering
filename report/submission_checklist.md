@@ -20,7 +20,7 @@ trong workspace và kết quả push đã xác minh; không phải xác nhận �
 | Người chấm truy cập được repo | **Chưa xác minh** | Cần kiểm tra quyền repo khi nộp |
 | Nộp link theo kênh lớp | **Chưa thực hiện** | Học viên nộp theo yêu cầu giảng viên/coach |
 
-Repo hiện tại: https://github.com/phamtuananhhatay/K5-L3-Day06-2A202603503-DataIngestionEngineering
+Repo hiện tại: https://github.com/phamtuananhhatay/K5-L3A-Day06-2A202603503-DataIngestionEngineering
 
 Kiểm tra hoàn thiện file: 13/13 unittest đạt; kiểm tra CLI có tùy chọn output riêng
 cho tái lập; các đường dẫn báo cáo chính hợp lệ, nhật ký CSV khớp số liệu reviewed,

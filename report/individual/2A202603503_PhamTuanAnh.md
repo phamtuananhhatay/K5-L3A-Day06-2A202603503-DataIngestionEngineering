@@ -4,7 +4,7 @@
 
 **Ngày thực hiện/đánh giá:** 13/11/2026
 
-**Repo:** https://github.com/phamtuananhhatay/K5-L3-Day06-2A202603503-DataIngestionEngineering
+**Repo:** https://github.com/phamtuananhhatay/K5-L3A-Day06-2A202603503-DataIngestionEngineering
 
 ## 1. Mục tiêu và dữ liệu
 

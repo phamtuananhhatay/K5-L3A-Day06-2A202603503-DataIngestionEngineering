@@ -95,7 +95,7 @@ và các log chuyên biệt. Không fallback vector giả. Ghi nguồn/công c�
 chấm đúng thực tế.
 
 Đã commit và push toàn bộ nội dung bài nộp lên `origin/main`: commit
-[`f534e5f`](https://github.com/phamtuananhhatay/K5-L3-Day06-2A202603503-DataIngestionEngineering/commit/f534e5fa899140ddfdd6dc1387573f4ff019b452),
+[`f534e5f`](https://github.com/phamtuananhhatay/K5-L3A-Day06-2A202603503-DataIngestionEngineering/commit/f534e5fa899140ddfdd6dc1387573f4ff019b452),
 remote đã được xác minh. Commit tài liệu tiếp theo ghi nhận trạng thái này; xem HEAD
 của main để có hồ sơ mới nhất. Chưa xác minh truy cập của người chấm và chưa nộp link
 trên kênh lớp. Xem checklist; không suy deadline từ checkpoint.
