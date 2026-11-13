@@ -94,9 +94,11 @@ Phí dịch vụ 0 USD, không gồm điện/mạng/phần cứng. Phiên bản 
 và các log chuyên biệt. Không fallback vector giả. Ghi nguồn/công cụ AI và người
 chấm đúng thực tế.
 
-Bài làm hiện được hoàn thiện trong workspace. Chưa tạo commit chứa toàn bộ bài
-nộp, chưa push hoặc xác minh truy cập của người chấm, chưa nộp link trên kênh lớp.
-Xem checklist để hoàn tất các thao tác Git/nộp bài; không suy deadline từ checkpoint.
+Đã commit và push toàn bộ nội dung bài nộp lên `origin/main`: commit
+[`f534e5f`](https://github.com/phamtuananhhatay/K5-L3-Day06-2A202603503-DataIngestionEngineering/commit/f534e5fa899140ddfdd6dc1387573f4ff019b452),
+remote đã được xác minh. Commit tài liệu tiếp theo ghi nhận trạng thái này; xem HEAD
+của main để có hồ sơ mới nhất. Chưa xác minh truy cập của người chấm và chưa nộp link
+trên kênh lớp. Xem checklist; không suy deadline từ checkpoint.
 
 ---
 

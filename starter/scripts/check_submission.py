@@ -69,13 +69,17 @@ def main():
         with (ROOT/p).open('rb') as stream: actual=hashlib.file_digest(stream,'sha256').hexdigest()
         if actual!=digest:changed.append(p)
     if changed:errors.append('Frozen files changed')
+    pending=['Verify grader access','Submit repository link on class channel']
+    receipt=read('artifacts/publication.json') if (ROOT/'artifacts/publication.json').exists() else None
+    if not receipt or not receipt.get('content_push_verified'):
+        pending=['Commit completed work','Push to origin',*pending]
     result={'status':'pass' if not errors else 'fail','student':{'name':'Phạm Tuấn Anh','id':'2A202603503','class':'L3A'},
             'required_files_present':not any(e.startswith('Missing') for e in errors),'experiment_log_matches_metrics':not any('Experiment log' in e for e in errors),
             'dev_traces':45,'test_traces':15,'ranked_chunks':180,'coherence_labels':30,'metadata_records':45,'grounding_labels':15,
             'relative_links_checked':True,'secret_pattern_findings':secret_findings,'git_candidate_files_scanned':len(candidate_files),
             'secret_scan_limit':'Pattern scan of Git candidate text files, not a guarantee of absence of all sensitive content',
             'frozen_files_checked':len(frozen['file_sha256']),'frozen_files_changed':changed,
-            'external_steps_pending':['Commit completed work','Push to origin','Verify grader access','Submit repository link on class channel'],
+            'publication_receipt':receipt,'external_steps_pending':pending,
             'errors':errors}
     (ROOT/'results/submission_check.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(result,ensure_ascii=False,indent=2))

@@ -1,7 +1,7 @@
 # Checklist bài nộp — Phạm Tuấn Anh, 2A202603503, L3A
 
 Đối chiếu với [SUBMISSION.md](../SUBMISSION.md). Đây là trạng thái chuẩn bị file
-trong workspace, không phải xác nhận đã commit/push hoặc nộp link cho lớp.
+trong workspace và kết quả push đã xác minh; không phải xác nhận đã nộp link cho lớp.
 
 | Yêu cầu | Trạng thái | Minh chứng |
 |---|---|---|
@@ -16,7 +16,7 @@ trong workspace, không phải xác nhận đã commit/push hoặc nộp link ch
 | Báo cáo cá nhân đúng tên | Đã có | report/individual/2A202603503_PhamTuanAnh.md |
 | Thông tin học viên | Đã điền | STUDENT.md |
 | Secret/dữ liệu lớn không đi vào Git | Xem kết quả kiểm tra cuối | results/submission_check.json, .gitignore |
-| Commit chứa toàn bộ bài làm, push lên origin | **Chưa thực hiện trong phiên chuẩn bị này** | Hiện bài làm còn thay đổi/untracked trong workspace |
+| Commit chứa toàn bộ bài làm, push lên origin | **Đã hoàn thành và xác minh** | Commit nội dung f534e5fa899140ddfdd6dc1387573f4ff019b452 trên origin/main; artifacts/publication.json |
 | Người chấm truy cập được repo | **Chưa xác minh** | Cần kiểm tra quyền repo khi nộp |
 | Nộp link theo kênh lớp | **Chưa thực hiện** | Học viên nộp theo yêu cầu giảng viên/coach |
 
@@ -31,7 +31,8 @@ phải bảo đảm tuyệt đối mọi nội dung đều không nhạy cảm. 
 
 Không đổi tên repo chỉ để theo tên gợi ý nếu lớp không bắt buộc. Deadline theo thông
 báo lớp, không tự suy từ thời lượng 4 giờ/checkpoint. Không tự gán commit khung ban đầu
-là commit chốt bài. Sau khi commit/push thực sự, cập nhật STUDENT.md cho đúng trạng thái.
+là commit chốt bài. STUDENT.md đã ghi commit nội dung thực tế; commit tài liệu tiếp
+theo bổ sung trạng thái push mà không thay cấu hình hoặc kết quả đánh giá.
 
 Trước commit, xem `git status --short` và kiểm tra danh sách file sẽ đưa lên. Không thêm
 `.env`, `.venv`, `models/`, PDF gốc hoặc `tmp/`. Dữ liệu/model tái lập qua URL/hash.

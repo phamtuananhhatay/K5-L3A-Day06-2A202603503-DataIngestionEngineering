@@ -6,7 +6,8 @@ Hiện đã triển khai đọc tài liệu, chia chunk A/B, embedding local và
 theo snapshot đã chốt. Phạm Tuấn Anh đã rà soát evidence test, chấm grounding,
 kiểm tra metadata và chấm coherence trên 10 mẫu đã chuẩn bị. Phân tích, nhật ký và
 [báo cáo cá nhân](../report/individual/2A202603503_PhamTuanAnh.md) đã hoàn thiện;
-còn commit/push và nộp link theo kênh lớp. Vẫn có thể chọn
+đã commit/push nội dung lên origin/main, còn kiểm tra quyền người chấm và nộp link
+theo kênh lớp. Vẫn có thể chọn
 Qdrant, Chroma hoặc vector store tương đương theo [GUIDE.md](../GUIDE.md).
 
 ## Cấu trúc
