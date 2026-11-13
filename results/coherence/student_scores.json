@@ -1,0 +1,22 @@
+{
+  "reviewer": "Phạm Tuấn Anh",
+  "recorded_at_date": "2026-11-13",
+  "provenance": "Scores and reasons submitted by learner in chat; Codex records and aggregates only",
+  "samples_file": "results/coherence/samples.json",
+  "scale": "0=unclear due to broken idea/missing referent; 1=partially understandable, lacks context; 2=self-contained and coherent",
+  "C_reuses_B": true,
+  "reviews": [
+    {"sample_id":"01","scores":{"A":1,"B":2,"C":2},"reason_A":"Giữ được hai câu đầu trọn vẹn nhưng câu thứ ba bị cắt giữa từ (to prepare chil), gây cụt ý.","reason_B_C":"Tách đúng ranh giới đoạn văn gồm hai câu hoàn chỉnh, rõ chủ thể và giữ trọn ý."},
+    {"sample_id":"02","scores":{"A":1,"B":2,"C":2},"reason_A":"Nêu được định nghĩa SDG 7 và Indicator 7.1.1 nhưng bị cắt cụt ở cuối danh sách ngay sau Proportion of (mất nội dung Indicator 7.1.2 và các target còn lại).","reason_B_C":"Tách trọn đoạn mở đầu giới thiệu SDG 7, mục tiêu năm 2030 và tên Target 7.1 thành một khối mạch lạc, không bị cắt ngang câu."},
+    {"sample_id":"03","scores":{"A":1,"B":2,"C":2},"reason_A":"Bắt đầu lửng lơ giữa câu (for electricity access...) vì thiếu vế đầu của câu ở trang trước, đồng thời phần giới thiệu RISE ở cuối bị cắt ngay sau RISE is the.","reason_B_C":"Bắt đầu đúng đầu câu định nghĩa RISE và kết thúc trọn vẹn đoạn văn mô tả chu kỳ xuất bản cùng nền tảng trực tuyến."},
+    {"sample_id":"04","scores":{"A":1,"B":2,"C":2},"reason_A":"Giữ trọn câu đầu tiên nhưng câu thứ hai bị cắt ngang giữa cụm từ (in a Paris Agr).","reason_B_C":"Tách đúng một câu hoàn chỉnh mở đầu section, đầy đủ chủ thể và ý nghĩa."},
+    {"sample_id":"05","scores":{"A":1,"B":2,"C":2},"reason_A":"Mở đầu bằng phần đuôi của câu từ trang trước (such technologies...), sau đó nêu trọn câu ví dụ ở Kenya và Niger nhưng câu thứ ba bị cắt cụt ở cuối (in collaboration w).","reason_B_C":"Tách đúng ranh giới đoạn nên vẫn còn phần đuôi câu trang trước ở đầu chunk, nhưng giữ trọn vẹn câu ví dụ về Kenya và Niger mà không bị cắt ngang từ."},
+    {"sample_id":"06","scores":{"A":1,"B":2,"C":2},"reason_A":"Mở đầu bằng phần đuôi câu từ trang trước (for implementing...) và bị cắt ngang từ ở mục liệt kê thứ hai (regional trad), thiếu mục (3).","reason_B_C":"Bắt đầu đúng đầu câu chủ đề về chương trình MARCOT trong FY2021 và liệt kê trọn vẹn cả ba mục tiêu chiến lược."},
+    {"sample_id":"07","scores":{"A":1,"B":2,"C":2},"reason_A":"Giữ trọn câu đầu về chương trình tại Sudan nhưng câu thứ hai bị cắt ngang từ ở cuối (deliver posi).","reason_B_C":"Tách trọn vẹn câu giới thiệu đầu tiên của hộp thông tin về Sudan, đầy đủ chủ thể, mốc thời gian và mục tiêu."},
+    {"sample_id":"08","scores":{"A":1,"B":2,"C":2},"reason_A":"Giữ trọn đoạn văn về diễn đàn tri thức trực tuyến của ESRF nhưng dính thêm tiêu đề mục mới và một từ Coal rời rạc ở cuối.","reason_B_C":"Tách sạch toàn bộ đoạn văn về diễn đàn tri thức của ESRF, không dính chữ thừa từ tiêu đề tiếp theo."},
+    {"sample_id":"09","scores":{"A":1,"B":2,"C":2},"reason_A":"Giữ trọn hai câu đầu nhưng câu thứ ba bị cắt lửng ở cuối (actions needed).","reason_B_C":"Tách trọn đoạn mở đầu gồm hai câu hoàn chỉnh về chương trình Gender and Energy của ESMAP."},
+    {"sample_id":"10","scores":{"A":1,"B":2,"C":2},"reason_A":"Giữ trọn tiểu mục về bình đẳng giới trong thủy điện nhưng dính thêm tiêu đề bị cắt cụt của tiểu mục tiếp theo (IN THE OFF).","reason_B_C":"Tách trọn vẹn toàn bộ đoạn văn của tiểu mục Getting to Gender Equality in Hydropower, đứng độc lập và giữ trọn ý."}
+  ],
+  "independent_blind_assessment": false,
+  "configuration_changed": false
+}

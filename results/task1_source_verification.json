@@ -1,0 +1,8 @@
+{
+  "verified_at": "2026-11-13",
+  "source_url": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+  "method": "Download via PowerShell Invoke-WebRequest with normal TLS verification; compare SHA-256",
+  "local_sha256": "e49c65cc3d0d0e234a81d9a4f7f5dbc397df3a997c7f772dd2771948ad924b29",
+  "official_sha256": "e49c65cc3d0d0e234a81d9a4f7f5dbc397df3a997c7f772dd2771948ad924b29",
+  "identical_to_local": true
+}

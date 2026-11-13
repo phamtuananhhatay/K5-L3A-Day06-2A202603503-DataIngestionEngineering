@@ -1,0 +1,2140 @@
+[
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "Theo báo cáo ESMAP 2021, khung phân tích trong báo cáo về tái sử dụng nhà máy than già cỗi xem xét ba phương án chuyển đổi công năng nào?",
+    "expected_answer": "Phát điện mặt trời, lưu trữ năng lượng bằng pin và máy bù đồng bộ.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 31,
+        "evidence_quote": "The report presents a detailed cost- benefit framework for examining the value proposition of repurposing for three applications—solar energy generation, battery energy storage, and synchronous condenser (that produces fast reactive power essential for maintaining system security)"
+      }
+    ],
+    "requested_filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": null,
+    "diagnostic": "gold_page_retrieved_but_complete_quote_missing; review partial/split/equivalent evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "b6196f137320391dce946e73278f140b5203dff1b94021fed9c7650f9b980f7d",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 28,
+        "text": "rom the Bank management, and from the ESMAP\ndonors—to systematize vast knowledge of the Bank’s\nengagement in the area of power market reforms, set\nup a consolidated center of expertise on power market\nsolutions tailored to the changing environment and client\ncountries’ evolving needs, and provide a practical platform\nFigure 2.1. Electricity Generation by Source, 2019\nSource: Innovation landscape for a renewable-powered future: Solutions to integrate variable renewables, IRENA, 2019.\nElectricity",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 2299,
+          "start_char": 1800,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 2568
+        },
+        "cosine_distance": 0.157888456394236,
+        "score": 0.842111543605764,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "730ae7cb18aa033896ca581233811c03076f26967a2d0784ea7061c67ae673b9",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 31,
+        "text": "ty is to support countries and communities\nmost affected by the phasing out of coal as they transition\nto cleaner energy sources. ESMAP supports coal mine\nclosure and coal plant repurposing, particularly through\npartnerships like the Platform Initiative in Support of Coal\nRegions in Transition for Western Balkans and Ukraine,\nwhich was launched in December 2020. As part of this\neffort, the new program on Supporting Coal Regions\nin Transition also assists client countries that have\nmade the decis",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 2300,
+          "start_char": 1800,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 4325
+        },
+        "cosine_distance": 0.16161589279316857,
+        "score": 0.8383841072068314,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": true,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "56ed0a67f4716b16d84fa6496a1753f041a11e12c85513c68b4be2152d2ddb37",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "es in a well-functioning,\nfinancially sound power sector. Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Ener",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 1400,
+          "start_char": 900,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.16371745846971475,
+        "score": 0.8362825415302853,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "A",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.020664199983002618,
+    "search_seconds": 0.07002469999133609
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "Theo báo cáo ESMAP 2021, khung phân tích trong báo cáo về tái sử dụng nhà máy than già cỗi xem xét ba phương án chuyển đổi công năng nào?",
+    "expected_answer": "Phát điện mặt trời, lưu trữ năng lượng bằng pin và máy bù đồng bộ.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 31,
+        "evidence_quote": "The report presents a detailed cost- benefit framework for examining the value proposition of repurposing for three applications—solar energy generation, battery energy storage, and synchronous condenser (that produces fast reactive power essential for maintaining system security)"
+      }
+    ],
+    "requested_filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": null,
+    "diagnostic": "gold_source_page_absent_from_top3; review possible alternative evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 38,
+        "text": "30\nESMAP Annual Report 2021\nPhoto © istockphoto / Jörg Henninger",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 64,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 976
+        },
+        "cosine_distance": 0.15673071146010753,
+        "score": 0.8432692885398925,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Energy\nTransition program)\n2.",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1425,
+          "start_char": 958,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.16918557882308372,
+        "score": 0.8308144211769163,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 52,
+        "text": "In FY2021, the program focused on:\n• offsetting the economic risk to the nascent off-grid\nsolar industry and off-grid solar consumers occasioned\nby the COVID-19 pandemic (see “ESMAP’s COVID-19\nResponse,” page 8).\n• developing market-compatible solutions for reaching\nthe “last mile” and low-income households in complex\nbusiness environments such as fragile states.\n• promoting technology and business model solutions\nfor the electrification of productive uses and public\ninstitutions through",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1103,
+          "start_char": 611,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3064
+        },
+        "cosine_distance": 0.17130405731821252,
+        "score": 0.8286959426817875,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "B",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.020664199983002618,
+    "search_seconds": 0.0681114999752026
+  },
+  {
+    "question_id": "q17",
+    "split": "test",
+    "question": "Theo báo cáo ESMAP 2021, khung phân tích trong báo cáo về tái sử dụng nhà máy than già cỗi xem xét ba phương án chuyển đổi công năng nào?",
+    "expected_answer": "Phát điện mặt trời, lưu trữ năng lượng bằng pin và máy bù đồng bộ.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 31,
+        "evidence_quote": "The report presents a detailed cost- benefit framework for examining the value proposition of repurposing for three applications—solar energy generation, battery energy storage, and synchronous condenser (that produces fast reactive power essential for maintaining system security)"
+      }
+    ],
+    "requested_filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": null,
+    "diagnostic": "gold_source_page_absent_from_top3; review possible alternative evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 38,
+        "text": "30\nESMAP Annual Report 2021\nPhoto © istockphoto / Jörg Henninger",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 64,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 976
+        },
+        "cosine_distance": 0.15673071146010753,
+        "score": 0.8432692885398925,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Energy\nTransition program)\n2.",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1425,
+          "start_char": 958,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.16918557882308372,
+        "score": 0.8308144211769163,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 52,
+        "text": "In FY2021, the program focused on:\n• offsetting the economic risk to the nascent off-grid\nsolar industry and off-grid solar consumers occasioned\nby the COVID-19 pandemic (see “ESMAP’s COVID-19\nResponse,” page 8).\n• developing market-compatible solutions for reaching\nthe “last mile” and low-income households in complex\nbusiness environments such as fragile states.\n• promoting technology and business model solutions\nfor the electrification of productive uses and public\ninstitutions through",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1103,
+          "start_char": 611,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3064
+        },
+        "cosine_distance": 0.17130405731821252,
+        "score": 0.8286959426817875,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "C",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.020664199983002618,
+    "search_seconds": 0.07154050000826828
+  },
+  {
+    "question_id": "q18",
+    "split": "test",
+    "question": "Chỉ xét mục Accelerating Decarbonization trong báo cáo ESMAP 2021: nghiên cứu tại Kazakhstan nêu nguyên nhân nào khiến thị trường nhiệt địa nhiệt chưa khuyến khích đầu tư tư nhân/nhu cầu công chúng, và vấn đề gì làm quy trình cấp phép thiếu rõ ràng?",
+    "expected_answer": "Trợ cấp nhiên liệu phổ biến làm giảm động lực thị trường; quy trình cấp phép thiếu rõ ràng vì thuộc trách nhiệm của nhiều cơ quan.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 41,
+        "evidence_quote": "The first study, Legal, Regulatory, and Institutional Review of Kazakhstan’s Geothermal Sector, found that the market environment for geothermal heat is not encouraging for private investment in GDU or public demand for GDU heating services, due to the prevalence of fuel subsidies. This study also found that the geothermal permitting and licensing process is rather unclear, as it is in the hands of many institutions."
+      }
+    ],
+    "requested_filter": {
+      "section": "Accelerating Decarbonization"
+    },
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": true,
+    "diagnostic": "gold_page_retrieved_but_complete_quote_missing; review partial/split/equivalent evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "3a57ce6a731f1fac3821c531193e55d5101dc05bdbad0d51b2f1b3a3706d445c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 40,
+        "text": "n creating\nand decarbonizing economic activity and to build the\nenabling environment necessary to scale up its use.\nIn FY2021, the program initiated technical assistance\nactivities in Kazakhstan and Turkey to assess the potential\nof geothermal direct use.\nPhoto © ThinkGeoEnergy",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 2078,
+          "start_char": 1800,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 2078
+        },
+        "cosine_distance": 0.13260058968059518,
+        "score": 0.8673994103194048,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "26b9934ff240ab2274c4cf5c0caf09398e651f111779c6efe03ddda8555e9d64",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 41,
+        "text": "33\nAccelerating Decarbonization\nKAZAKHSTAN\nGEOTHERMAL RESOURCES\nKazakhstan holds significant geothermal resources. With the support of Iceland, ESMAP in FY2021\ncontributed to two studies that explored the potential of geothermal direct use in district heating in\nKazakhstan. The first study, Legal, Regulatory, and Institutional Review of Kazakhstan’s Geothermal\nSector, found that the market environment for geothermal heat is not encouraging for private\ninvestment in GDU or public demand for GDU h",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 500,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3399
+        },
+        "cosine_distance": 0.13901042109665596,
+        "score": 0.860989578903344,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": true,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "a5891606634d105161ba3de19ff09a67726e37cb25a9b2a1a6d3903dba889f05",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 40,
+        "text": "d that installed\nthermal power capacity for direct use was a modest\n107 gigawatts thermal (GWt). GDU projects can support\neconomic activity, create jobs, promote gender equality,\nand displace greenhouse gas-intensive fuels currently used\nfor heating, contributing to global decarbonization efforts.\nESMAP’s Geothermal Direct Use program was created\nas part of the new FY2021–24 business plan to raise\nawareness of the value of direct use geothermal in creating\nand decarbonizing economic activity and",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 1850,
+          "start_char": 1350,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 2078
+        },
+        "cosine_distance": 0.14861154556274414,
+        "score": 0.8513884544372559,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "A",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.027878500026417896,
+    "search_seconds": 0.07131709999521263
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Theo báo cáo ESMAP 2021, Financial Innovation for Access định hướng cung cấp nguồn tài chính như thế nào trong quan hệ với thị trường tư nhân?",
+    "expected_answer": "Cung cấp nguồn tài chính bổ sung, thay vì loại trừ hoặc cạnh tranh với thị trường tư nhân.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 55,
+        "evidence_quote": "The Financial Innovation for Access initiative, launched in FY2021, endorses the development and testing of financing instruments and implementation modes to drive energy access acceleration, inclusion, and impact across all electricity systems and solutions. It aims to do so in a way that provides additional financing instead of excluding or competing with private markets."
+      }
+    ],
+    "requested_filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": null,
+    "diagnostic": "gold_source_page_absent_from_top3; review possible alternative evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "56ed0a67f4716b16d84fa6496a1753f041a11e12c85513c68b4be2152d2ddb37",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "es in a well-functioning,\nfinancially sound power sector. Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Ener",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 1400,
+          "start_char": 900,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.1557474480792116,
+        "score": 0.8442525519207884,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "6e2a683f32325068c56c98879c298b1e209b0e01d17002e4ba0448e0a3814a31",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 49,
+        "text": "workstreams—(1) Integrated Electrification\nStrategies and Planning; (2) Global Facility on Mini Grids;\n(3) Off-Grid Solar (Lighting Global); (4) Leave No One\nBehind; (5) Improving Livelihoods and Human Capital;\nand (6) Financial Innovation for Electricity Access—the\nESMAP Electricity Access program places a distinct\nemphasis on scaling access at this new frontier. For\nFY2021, four main themes drove the program’s work: (1)\nresponding decisively to the COVID-19 crisis, with a focus\non electrifyin",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 1850,
+          "start_char": 1351,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3889
+        },
+        "cosine_distance": 0.15621689427545316,
+        "score": 0.8437831057245468,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "b6196f137320391dce946e73278f140b5203dff1b94021fed9c7650f9b980f7d",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 28,
+        "text": "rom the Bank management, and from the ESMAP\ndonors—to systematize vast knowledge of the Bank’s\nengagement in the area of power market reforms, set\nup a consolidated center of expertise on power market\nsolutions tailored to the changing environment and client\ncountries’ evolving needs, and provide a practical platform\nFigure 2.1. Electricity Generation by Source, 2019\nSource: Innovation landscape for a renewable-powered future: Solutions to integrate variable renewables, IRENA, 2019.\nElectricity",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 2299,
+          "start_char": 1800,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 2568
+        },
+        "cosine_distance": 0.1637408234918608,
+        "score": 0.8362591765081392,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "A",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.020193299977108836,
+    "search_seconds": 0.07161600000108592
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Theo báo cáo ESMAP 2021, Financial Innovation for Access định hướng cung cấp nguồn tài chính như thế nào trong quan hệ với thị trường tư nhân?",
+    "expected_answer": "Cung cấp nguồn tài chính bổ sung, thay vì loại trừ hoặc cạnh tranh với thị trường tư nhân.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 55,
+        "evidence_quote": "The Financial Innovation for Access initiative, launched in FY2021, endorses the development and testing of financing instruments and implementation modes to drive energy access acceleration, inclusion, and impact across all electricity systems and solutions. It aims to do so in a way that provides additional financing instead of excluding or competing with private markets."
+      }
+    ],
+    "requested_filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": null,
+    "diagnostic": "gold_source_page_absent_from_top3; review possible alternative evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 52,
+        "text": "In FY2021, the program focused on:\n• offsetting the economic risk to the nascent off-grid\nsolar industry and off-grid solar consumers occasioned\nby the COVID-19 pandemic (see “ESMAP’s COVID-19\nResponse,” page 8).\n• developing market-compatible solutions for reaching\nthe “last mile” and low-income households in complex\nbusiness environments such as fragile states.\n• promoting technology and business model solutions\nfor the electrification of productive uses and public\ninstitutions through",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1103,
+          "start_char": 611,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3064
+        },
+        "cosine_distance": 0.1643929232476029,
+        "score": 0.8356070767523971,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 38,
+        "text": "30\nESMAP Annual Report 2021\nPhoto © istockphoto / Jörg Henninger",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 64,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 976
+        },
+        "cosine_distance": 0.16495099172141836,
+        "score": 0.8350490082785816,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Energy\nTransition program)\n2.",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1425,
+          "start_char": 958,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.16699256995342127,
+        "score": 0.8330074300465787,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "B",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.020193299977108836,
+    "search_seconds": 0.07228689998737536
+  },
+  {
+    "question_id": "q19",
+    "split": "test",
+    "question": "Theo báo cáo ESMAP 2021, Financial Innovation for Access định hướng cung cấp nguồn tài chính như thế nào trong quan hệ với thị trường tư nhân?",
+    "expected_answer": "Cung cấp nguồn tài chính bổ sung, thay vì loại trừ hoặc cạnh tranh với thị trường tư nhân.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 55,
+        "evidence_quote": "The Financial Innovation for Access initiative, launched in FY2021, endorses the development and testing of financing instruments and implementation modes to drive energy access acceleration, inclusion, and impact across all electricity systems and solutions. It aims to do so in a way that provides additional financing instead of excluding or competing with private markets."
+      }
+    ],
+    "requested_filter": null,
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": null,
+    "diagnostic": "gold_source_page_absent_from_top3; review possible alternative evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 52,
+        "text": "In FY2021, the program focused on:\n• offsetting the economic risk to the nascent off-grid\nsolar industry and off-grid solar consumers occasioned\nby the COVID-19 pandemic (see “ESMAP’s COVID-19\nResponse,” page 8).\n• developing market-compatible solutions for reaching\nthe “last mile” and low-income households in complex\nbusiness environments such as fragile states.\n• promoting technology and business model solutions\nfor the electrification of productive uses and public\ninstitutions through",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1103,
+          "start_char": 611,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3064
+        },
+        "cosine_distance": 0.1643929232476029,
+        "score": 0.8356070767523971,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 38,
+        "text": "30\nESMAP Annual Report 2021\nPhoto © istockphoto / Jörg Henninger",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 64,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 976
+        },
+        "cosine_distance": 0.16495099172141836,
+        "score": 0.8350490082785816,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Energy\nTransition program)\n2.",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1425,
+          "start_char": 958,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.16699256995342127,
+        "score": 0.8330074300465787,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "C",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.020193299977108836,
+    "search_seconds": 0.07287699999869801
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "Chỉ xét mục Renewable Energy trong báo cáo ESMAP 2021: trong trường hợp điện mặt trời nổi tại Tajikistan, những công việc nào chỉ được tiến hành sau khi đánh giá kỹ thuật hoàn tất?",
+    "expected_answer": "Sàng lọc môi trường và xã hội ở mức tổng quát, cùng các nghiên cứu về phương án tài chính, được thực hiện sau khi đánh giá kỹ thuật hoàn tất.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 62,
+        "evidence_quote": "In Tajikistan, ESMAP is supporting a preliminary techno-economic assessment of the possibility to install floating solar plants on Nurek and Baipaza hydropower plants and Qairokkum reservoirs. The assessment, currently under way, focuses on issues related to construction, anchoring, mooring, and interconnection with the grid network. A high-level environmental and social screening and studies of financing options will be performed once the technical assessment is completed."
+      }
+    ],
+    "requested_filter": {
+      "section": "Renewable Energy"
+    },
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": false,
+    "diagnostic": "gold_page_retrieved_but_complete_quote_missing; review partial/split/equivalent evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "8da4ce4bb37c6686146bb49b70b93df36f78314baa634e47decb46496cd6ad19",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 62,
+        "text": "54\nESMAP Annual Report 2021\nTAJIKISTAN\nFLOATING SOLAR ON HYDROPOWER\nPLANTS\nIn Tajikistan, ESMAP is supporting a preliminary techno-economic assessment of the possibility to\ninstall floating solar plants on Nurek and Baipaza hydropower plants and Qairokkum reservoirs. The\nassessment, currently under way, focuses on issues related to construction, anchoring, mooring, and\ninterconnection with the grid network. A high-level environmental and social screening and studies of\nfinancing options will be",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 499,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 607
+        },
+        "cosine_distance": 0.13240003585814808,
+        "score": 0.8675999641418519,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": true,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "57a7f5ff3c00998519d37928b1c25d54bef9df05c21f329528e4321d7135f377",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 24,
+        "text": "ld Bank/ESMAP, the International\nEnergy Agency (IEA), the International Renewable Energy\nAgency (IRENA), the United Nations Statistics Division\n(UNSD), and WHO, with the support of the SDG 7 Technical\nAdvisory Group at the UN. As the custodian agency for\nSDG 7.1.1, the World Bank/ESMAP is responsible for the\nelectrification data and the chapter on access to electricity.\nIn FY2021, the ESMAP team introduced the notions of\naffordability, availability, and reliability to the tracking. The\nseventh e",
+        "metadata": {
+          "section": "Energy Data",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 2300,
+          "start_char": 1800,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3245
+        },
+        "cosine_distance": 0.1446656670967127,
+        "score": 0.8553343329032873,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "b6196f137320391dce946e73278f140b5203dff1b94021fed9c7650f9b980f7d",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 28,
+        "text": "rom the Bank management, and from the ESMAP\ndonors—to systematize vast knowledge of the Bank’s\nengagement in the area of power market reforms, set\nup a consolidated center of expertise on power market\nsolutions tailored to the changing environment and client\ncountries’ evolving needs, and provide a practical platform\nFigure 2.1. Electricity Generation by Source, 2019\nSource: Innovation landscape for a renewable-powered future: Solutions to integrate variable renewables, IRENA, 2019.\nElectricity",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 2299,
+          "start_char": 1800,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 2568
+        },
+        "cosine_distance": 0.15138248962603384,
+        "score": 0.8486175103739662,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "A",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.023967500019352883,
+    "search_seconds": 0.07399900001473725
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "Chỉ xét mục Renewable Energy trong báo cáo ESMAP 2021: trong trường hợp điện mặt trời nổi tại Tajikistan, những công việc nào chỉ được tiến hành sau khi đánh giá kỹ thuật hoàn tất?",
+    "expected_answer": "Sàng lọc môi trường và xã hội ở mức tổng quát, cùng các nghiên cứu về phương án tài chính, được thực hiện sau khi đánh giá kỹ thuật hoàn tất.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 62,
+        "evidence_quote": "In Tajikistan, ESMAP is supporting a preliminary techno-economic assessment of the possibility to install floating solar plants on Nurek and Baipaza hydropower plants and Qairokkum reservoirs. The assessment, currently under way, focuses on issues related to construction, anchoring, mooring, and interconnection with the grid network. A high-level environmental and social screening and studies of financing options will be performed once the technical assessment is completed."
+      }
+    ],
+    "requested_filter": {
+      "section": "Renewable Energy"
+    },
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": false,
+    "diagnostic": "gold_page_retrieved_but_complete_quote_missing; review partial/split/equivalent evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "033289c62355e3c71a58f7648772f540c1d1f2164b4df81b831231dfa245680c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 62,
+        "text": "54\nESMAP Annual Report 2021\nTAJIKISTAN\nFLOATING SOLAR ON HYDROPOWER\nPLANTS\nIn Tajikistan, ESMAP is supporting a preliminary techno-economic assessment of the possibility to\ninstall floating solar plants on Nurek and Baipaza hydropower plants and Qairokkum reservoirs. The\nassessment, currently under way, focuses on issues related to construction, anchoring, mooring, and\ninterconnection with the grid network.",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 410,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 607
+        },
+        "cosine_distance": 0.13702816587854272,
+        "score": 0.8629718341214573,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": true,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 38,
+        "text": "30\nESMAP Annual Report 2021\nPhoto © istockphoto / Jörg Henninger",
+        "metadata": {
+          "section": "Accelerating Decarbonization",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 64,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 976
+        },
+        "cosine_distance": 0.15780431032180187,
+        "score": 0.8421956896781981,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 52,
+        "text": "In FY2021, the program focused on:\n• offsetting the economic risk to the nascent off-grid\nsolar industry and off-grid solar consumers occasioned\nby the COVID-19 pandemic (see “ESMAP’s COVID-19\nResponse,” page 8).\n• developing market-compatible solutions for reaching\nthe “last mile” and low-income households in complex\nbusiness environments such as fragile states.\n• promoting technology and business model solutions\nfor the electrification of productive uses and public\ninstitutions through",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1103,
+          "start_char": 611,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3064
+        },
+        "cosine_distance": 0.16083950762984056,
+        "score": 0.8391604923701594,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "B",
+    "applied_filter": null,
+    "query_embedding_seconds": 0.023967500019352883,
+    "search_seconds": 0.07610090001253411
+  },
+  {
+    "question_id": "q20",
+    "split": "test",
+    "question": "Chỉ xét mục Renewable Energy trong báo cáo ESMAP 2021: trong trường hợp điện mặt trời nổi tại Tajikistan, những công việc nào chỉ được tiến hành sau khi đánh giá kỹ thuật hoàn tất?",
+    "expected_answer": "Sàng lọc môi trường và xã hội ở mức tổng quát, cùng các nghiên cứu về phương án tài chính, được thực hiện sau khi đánh giá kỹ thuật hoàn tất.",
+    "gold_evidence": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 62,
+        "evidence_quote": "In Tajikistan, ESMAP is supporting a preliminary techno-economic assessment of the possibility to install floating solar plants on Nurek and Baipaza hydropower plants and Qairokkum reservoirs. The assessment, currently under way, focuses on issues related to construction, anchoring, mooring, and interconnection with the grid network. A high-level environmental and social screening and studies of financing options will be performed once the technical assessment is completed."
+      }
+    ],
+    "requested_filter": {
+      "section": "Renewable Energy"
+    },
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliance": true,
+    "diagnostic": "gold_page_retrieved_but_complete_quote_missing; review partial/split/equivalent evidence",
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "033289c62355e3c71a58f7648772f540c1d1f2164b4df81b831231dfa245680c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 62,
+        "text": "54\nESMAP Annual Report 2021\nTAJIKISTAN\nFLOATING SOLAR ON HYDROPOWER\nPLANTS\nIn Tajikistan, ESMAP is supporting a preliminary techno-economic assessment of the possibility to\ninstall floating solar plants on Nurek and Baipaza hydropower plants and Qairokkum reservoirs. The\nassessment, currently under way, focuses on issues related to construction, anchoring, mooring, and\ninterconnection with the grid network.",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 410,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 607
+        },
+        "cosine_distance": 0.13702816587854272,
+        "score": 0.8629718341214573,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": true,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 2,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "66ca1792ab33e7331940d8565e904293265193a19fc711eba3fe733d04f9dfa0",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 57,
+        "text": "ESMAP is scaling up renewable power technologies in\ndeveloping countries, using a three-prong approach, to:\n(1) help countries improve their enabling environments\nfor renewable energy (RE) in order to unlock large-scale\ninvestment in mature RE technologies, such as ground-\nmounted solar, onshore wind, and geothermal, and aid\nthe integration of variable renewables in power systems;\n(2) broaden the range of RE technologies deployed in\ndeveloping countries to include new innovations such as",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1544,
+          "start_char": 1052,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3006
+        },
+        "cosine_distance": 0.16332061072114623,
+        "score": 0.8366793892788538,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      },
+      {
+        "rank": 3,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "e9ce3ae8365e035831ae40e73dfba9512f315a3b4820730ce0e106bd9933327e",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 65,
+        "text": "The Upper Cisokan hydropower project will\ngenerate 1 GW and will contribute to Indonesia’s transition to a lower- carbon economy. In FY2021,\nESMAP’s Hydropower Development Facility provided technical assistance to the preparation and\nearly implementation of the project. This includes knowledge sharing on: contract negotiations,\nenvironmental and social safeguards, implementation arrangements, owner’s engineer recruitment,\nclimate risk assessments, and project appraisal.",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 881,
+          "start_char": 407,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 927
+        },
+        "cosine_distance": 0.1765795946121157,
+        "score": 0.8234204053878843,
+        "score_type": "cosine_similarity",
+        "gold_source_page_match": false,
+        "evidence_hit": false,
+        "matched_gold_evidence": []
+      }
+    ],
+    "evaluation_method": "NFC/whitespace-normalized complete recorded quote in one valid-source/page chunk",
+    "manual_equivalence_review": "not performed",
+    "manual_grounding": null,
+    "manual_coherence": null,
+    "strategy": "C",
+    "applied_filter": {
+      "section": "Renewable Energy"
+    },
+    "query_embedding_seconds": 0.023967500019352883,
+    "search_seconds": 0.07322629998088814
+  }
+]

@@ -1,0 +1,142 @@
+{
+  "metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 5,
+        "denominator": 15,
+        "value": 0.3333333333333333
+      },
+      "evidence_hit_at_3": {
+        "numerator": 7,
+        "denominator": 15,
+        "value": 0.4666666666666667
+      },
+      "filter_compliance": {
+        "numerator": 3,
+        "denominator": 6,
+        "value": 0.5
+      },
+      "miss_question_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q07",
+        "q08",
+        "q09",
+        "q13",
+        "q15"
+      ]
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 7,
+        "denominator": 15,
+        "value": 0.4666666666666667
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15,
+        "value": 0.6
+      },
+      "filter_compliance": {
+        "numerator": 3,
+        "denominator": 6,
+        "value": 0.5
+      },
+      "miss_question_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q07",
+        "q08",
+        "q13"
+      ]
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 8,
+        "denominator": 15,
+        "value": 0.5333333333333333
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15,
+        "value": 0.6
+      },
+      "filter_compliance": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "miss_question_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q07",
+        "q08",
+        "q13"
+      ]
+    }
+  ],
+  "note": "Automatic conservative evidence matching; not LLM answer accuracy or manual grounding/coherence",
+  "status": "complete",
+  "split": "dev",
+  "trace_count": 45,
+  "test_executed": false,
+  "paid_service_cost_usd": 0,
+  "executed_at_utc": "2026-11-13T11:13:36.726500+00:00",
+  "benchmark_sha256": "405c5501bfc2d762298878c287ccb72dc67791dba9a064fb9ee4e72ffefcde8e",
+  "corpus_sha256": "47e06a7d12a4a4b15468d486359015bfd35e8d014c0907a929c97d8be9d13335",
+  "model": {
+    "provider": "local",
+    "model_name": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "license": "MIT (model repository metadata)",
+    "backend": "onnxruntime",
+    "variant": "onnx/model.onnx (FP32, no quantization)",
+    "local_directory": "models/multilingual-e5-small",
+    "dimensions": 384,
+    "max_tokens": 512,
+    "document_prefix": "passage: ",
+    "query_prefix": "query: ",
+    "pooling": "attention_mask_mean",
+    "normalization": "L2",
+    "overflow_policy": "raise; do not silently truncate",
+    "batch_size": 8,
+    "cpu_threads": 4,
+    "files": [
+      {
+        "remote_path": "onnx/model.onnx",
+        "local_name": "model.onnx",
+        "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665"
+      },
+      {
+        "remote_path": "tokenizer.json",
+        "local_name": "tokenizer.json",
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      }
+    ]
+  },
+  "search_type": "exact_cosine_top3",
+  "selection_rule": {
+    "dataset": "dev only",
+    "primary": "Evidence Hit@3 (descending)",
+    "tie_breakers": [
+      "Hit@1 (descending)",
+      "Measured ingest time (ascending)",
+      "Measured paid-service cost (ascending)",
+      "Strategy ID A then B then C if all preceding values tie"
+    ],
+    "test_usage": "Evaluate all three strategies after configurations are fixed; do not tune or reselect using test"
+  }
+}

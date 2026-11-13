@@ -1,0 +1,22 @@
+{
+  "selected_strategy": "C",
+  "basis": "Fixed rule: dev Evidence Hit@3 then Hit@1; resource tie-breakers unnecessary if unique",
+  "tie_requires_resource_comparison": false,
+  "evidence_hit_at_3": {
+    "numerator": 9,
+    "denominator": 15,
+    "value": 0.6
+  },
+  "hit_at_1": {
+    "numerator": 8,
+    "denominator": 15,
+    "value": 0.5333333333333333
+  },
+  "metric_scope": "automatic complete-recorded-quote matching, pending semantic-equivalence review",
+  "test_executed": false,
+  "configuration_hashes": {
+    "artifacts/chunking_config.json": "9c728fd7602df50d368fd80ff59257b6219b0f1aeb9767f99b97f1eafbed421a",
+    "artifacts/embedding_config.json": "063428d417b4a24e7a6579d552ec412a8d24f17fc4a68355fb5f84a8ffa5344f",
+    "benchmark/questions.json": "405c5501bfc2d762298878c287ccb72dc67791dba9a064fb9ee4e72ffefcde8e"
+  }
+}

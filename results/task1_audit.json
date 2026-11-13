@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-11-13",
+  "physical_pages": 82,
+  "selected_pages": 38,
+  "selected_normalized_characters": 99118,
+  "selected_min_characters": 607,
+  "selected_max_characters": 4325,
+  "no_text_pages": [
+    82
+  ],
+  "selected_pages_with_replacement_characters": [],
+  "duplicate_normalized_selected_pages": 0,
+  "extraction_errors": [],
+  "manual_review_note": "Automated extraction does not prove semantic correctness; see report/task1_corpus_review.md for visual checks and limitations"
+}

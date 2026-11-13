@@ -1,0 +1,122 @@
+{
+  "source_id": "esmap-annual-report-2021",
+  "title": "Energy Sector Management Assistance Program (ESMAP) Annual Report 2021",
+  "author": "Energy Sector Management Assistance Program (ESMAP)",
+  "publisher": "World Bank",
+  "source_path_or_url": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+  "catalog_url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/615511640189474271",
+  "local_path": "data/raw/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+  "license_or_permission": "CC BY 3.0 IGO, declared on physical PDF page 2; image and third-party content exceptions apply",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/igo/",
+  "rights_evidence_page": 2,
+  "attribution": "Energy Sector Management Assistance Program (ESMAP). 2021. Annual Report 2021. Washington, DC: World Bank.",
+  "accessed_at": "2026-11-13",
+  "accessed_at_note": "Date official source was verified for this audit; original user download date unknown",
+  "report_year": 2021,
+  "version": "Local PDF snapshot identified by SHA-256; no software version or effective date inferred",
+  "sha256": "e49c65cc3d0d0e234a81d9a4f7f5dbc397df3a997c7f772dd2771948ad924b29",
+  "file_size_bytes": 4459648,
+  "physical_pages": 82,
+  "content_page_count": 38,
+  "content_pages": [
+    23,
+    24,
+    25,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    45,
+    46,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65
+  ],
+  "content_page_ranges": [
+    {
+      "start": 23,
+      "end": 25,
+      "section": "Energy Data"
+    },
+    {
+      "start": 27,
+      "end": 35,
+      "section": "Foundations of Energy Transition"
+    },
+    {
+      "start": 37,
+      "end": 43,
+      "section": "Accelerating Decarbonization"
+    },
+    {
+      "start": 45,
+      "end": 47,
+      "section": "Clean Cooking"
+    },
+    {
+      "start": 49,
+      "end": 55,
+      "section": "Electricity Access"
+    },
+    {
+      "start": 57,
+      "end": 65,
+      "section": "Renewable Energy"
+    }
+  ],
+  "page_numbering": "Physical PDF pages, 1-based. Printed Arabic page = physical page - 8 for pages 9-81.",
+  "page_count_rule": "Selected six energy-topic sections; conservatively omit cover, front matter, section openers, photo-only pages and content outside chosen scope. Not every excluded page is invalid.",
+  "normalized_character_count": 99118,
+  "normalization": "Unicode NFC, normalize horizontal whitespace, trim lines, keep line boundaries; headers, footers and hyphenation retained for later pipeline work",
+  "extraction": {
+    "library": "pypdf",
+    "version": "6.21.4",
+    "ocr_used": false
+  },
+  "filter_field": {
+    "name": "section",
+    "type": "string",
+    "values": [
+      "Energy Data",
+      "Foundations of Energy Transition",
+      "Accelerating Decarbonization",
+      "Clean Cooking",
+      "Electricity Access",
+      "Renewable Energy"
+    ],
+    "provenance": "PDF TOC physical page 4 and corresponding headings",
+    "use": "Restrict retrieval to a section explicitly requested by question/context; never infer from gold evidence"
+  },
+  "scope": "Text corpus only; no image extraction or redistribution of the original PDF by this repository workflow",
+  "outputs": {
+    "page_inventory": "data/page_inventory.json",
+    "normalized_pages": "data/processed/esmap_pages.jsonl",
+    "audit_log": "results/task1_audit.json"
+  }
+}

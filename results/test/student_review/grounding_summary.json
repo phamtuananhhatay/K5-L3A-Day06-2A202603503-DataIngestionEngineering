@@ -1,0 +1,40 @@
+{
+  "reviewer": "Phạm Tuấn Anh",
+  "metrics": [
+    {
+      "strategy": "A",
+      "score_counts": {
+        "0": 0,
+        "1": 4,
+        "2": 1
+      },
+      "sum": 6,
+      "questions": 5,
+      "mean_out_of_2": 1.2
+    },
+    {
+      "strategy": "B",
+      "score_counts": {
+        "0": 2,
+        "1": 1,
+        "2": 2
+      },
+      "sum": 5,
+      "questions": 5,
+      "mean_out_of_2": 1.0
+    },
+    {
+      "strategy": "C",
+      "score_counts": {
+        "0": 2,
+        "1": 1,
+        "2": 2
+      },
+      "sum": 5,
+      "questions": 5,
+      "mean_out_of_2": 1.0
+    }
+  ],
+  "score_source": "learner chat submission",
+  "independent_blind_assessment": false
+}

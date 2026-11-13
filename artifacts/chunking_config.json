@@ -1,0 +1,9 @@
+{
+  "version": "chunking-v1",
+  "unit": "unicode_characters",
+  "scope": "one physical PDF page per chunk; source text unchanged",
+  "A": {"method": "fixed_size", "size": 500, "overlap": 50},
+  "B": {"method": "by_paragraph", "max_size": 500, "overlap": 0},
+  "C_planned": "Reuse B chunks; apply metadata filter only when supplied in the question",
+  "selection_note": "Initial parameters fixed before retrieval; no test-result tuning"
+}

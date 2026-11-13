@@ -1,0 +1,48 @@
+{
+  "reviewer": "Phạm Tuấn Anh",
+  "recorded_at_date": "2026-11-13",
+  "metrics": [
+    {
+      "strategy": "A",
+      "samples": 10,
+      "score_counts": {
+        "0": 0,
+        "1": 10,
+        "2": 0
+      },
+      "total_score": 10,
+      "mean_out_of_2": 1.0
+    },
+    {
+      "strategy": "B",
+      "samples": 10,
+      "score_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 10
+      },
+      "total_score": 20,
+      "mean_out_of_2": 2.0
+    },
+    {
+      "strategy": "C",
+      "samples": 10,
+      "score_counts": {
+        "0": 0,
+        "1": 0,
+        "2": 10
+      },
+      "total_score": 20,
+      "mean_out_of_2": 2.0
+    }
+  ],
+  "sample_file_sha256": "1810e5f0ae97377b0cf125311f2879e372d286f850702a12c28ad1e1a89ab67d",
+  "status": "complete",
+  "sample_positions": 10,
+  "strategy_labels": 30,
+  "C_reuses_B": true,
+  "selection_rule": "first 10 selected physical pages, explicit main-prose anchor, covering chunk with smallest start_char",
+  "source_positions_validated": true,
+  "independent_blind_assessment": false,
+  "scope": "Learner coherence ratings for these 10 source positions only"
+}

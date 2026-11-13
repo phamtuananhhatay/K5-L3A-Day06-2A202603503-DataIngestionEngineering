@@ -1,0 +1,924 @@
+[
+  {
+    "question": "Báo cáo mô tả các giải pháp lưu trữ năng lượng như thế nào?",
+    "strategy": "A",
+    "filter": null,
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "9aefe2e4bdca415680b2e6ef1fd5e3157464735bb37339c8e7b4bd1bac81b4f8",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 53,
+        "text": "cies and host governments address the\nenergy challenges and how development institutions can\ntackle the current displacement crisis.\nThe initiative is working with ESMAP’s Multi-Tier Framework\n(MTF) team (page 17) to adapt the MTF questionnaire\nto enable governments to better identify displacement\nsettings and address their electrification needs. Currently,\ngovernments facing influx of displaced people have\na hard time assessing the additional energy strains\nthese displacements occasion on host",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 1849,
+          "start_char": 1350,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3700
+        },
+        "cosine_distance": 0.17767923737752955,
+        "score": 0.8223207626224704,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 2,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "56ed0a67f4716b16d84fa6496a1753f041a11e12c85513c68b4be2152d2ddb37",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "es in a well-functioning,\nfinancially sound power sector. Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Ener",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 1400,
+          "start_char": 900,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.1815821392758581,
+        "score": 0.8184178607241419,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 3,
+        "strategy": "A",
+        "stored_strategy": "A",
+        "chunk_id": "f50dffae24246673f09324ce3f71612d27e2f8b80059bc9112fa32f1e252bbb2",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 24,
+        "text": "to electricity.\n• Indicator 7.1.2: Proportion of population with primary reliance on clean fuels and technology.\nTarget 7.2: Increase global percentage of renewable energy.\nTarget 7.3: Double the improvement in energy efficiency.\n• Target 7.A: Promote access to research, technology and investments in clean energy.\n• Target 7.B: Expand and upgrade energy services for developing countries.\nEnergyData.info. EnergyData.info is an open data\nplatform providing easy, free access to data and\nanalytics",
+        "metadata": {
+          "section": "Energy Data",
+          "chunking": {
+            "size": 500,
+            "method": "fixed_size",
+            "overlap": 50,
+            "version": 1
+          },
+          "end_char": 949,
+          "start_char": 451,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3245
+        },
+        "cosine_distance": 0.1843720541332976,
+        "score": 0.8156279458667024,
+        "score_type": "cosine_similarity"
+      }
+    ]
+  },
+  {
+    "question": "Báo cáo mô tả các giải pháp lưu trữ năng lượng như thế nào?",
+    "strategy": "B",
+    "filter": null,
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Energy\nTransition program)\n2.",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1425,
+          "start_char": 958,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.19160429214251018,
+        "score": 0.8083957078574898,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 2,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "b4382673bd8db9cd22c40e14e74e0bf2a18ea4a64ee2cd349a804c890e838988",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 53,
+        "text": "The initiative is working with ESMAP’s Multi-Tier Framework\n(MTF) team (page 17) to adapt the MTF questionnaire\nto enable governments to better identify displacement\nsettings and address their electrification needs. Currently,\ngovernments facing influx of displaced people have\na hard time assessing the additional energy strains\nthese displacements occasion on host communities or\nintegrating the energy needs of displaced people in their\nelectrification plans.",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1945,
+          "start_char": 1483,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3700
+        },
+        "cosine_distance": 0.19722394918417152,
+        "score": 0.8027760508158285,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 3,
+        "strategy": "B",
+        "stored_strategy": "B",
+        "chunk_id": "5899883b4e175748c8c76b58f49834e38cd909daa8d987836ec98973a25580df",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 24,
+        "text": "This target has two indicators:\n• Indicator 7.1.1: Proportion of population with access to electricity.\n• Indicator 7.1.2: Proportion of population with primary reliance on clean fuels and technology.\nTarget 7.2: Increase global percentage of renewable energy.\nTarget 7.3: Double the improvement in energy efficiency.\n• Target 7.A: Promote access to research, technology and investments in clean energy.\n• Target 7.B: Expand and upgrade energy services for developing countries.\nEnergyData.info.",
+        "metadata": {
+          "section": "Energy Data",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 858,
+          "start_char": 363,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3245
+        },
+        "cosine_distance": 0.2012156129970173,
+        "score": 0.7987843870029827,
+        "score_type": "cosine_similarity"
+      }
+    ]
+  },
+  {
+    "question": "Báo cáo mô tả các giải pháp lưu trữ năng lượng như thế nào?",
+    "strategy": "C",
+    "filter": null,
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 27,
+        "text": "Therefore, ESMAP—\nthrough its overarching Foundation for Energy Transition\nprogram—takes on the challenge of gluing together\nvarious ESMAP programs and providing a comprehensive\npolicy framework for the energy transition by employing\ninnovative solutions in five interlinked areas:\n1. Designing new business and regulatory models for\nutilities for the future, able to maintain financial\nviability and service standards (Utilities for the Energy\nTransition program)\n2.",
+        "metadata": {
+          "section": "Foundations of Energy Transition",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1425,
+          "start_char": 958,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3397
+        },
+        "cosine_distance": 0.19160429214251018,
+        "score": 0.8083957078574898,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 2,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "b4382673bd8db9cd22c40e14e74e0bf2a18ea4a64ee2cd349a804c890e838988",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 53,
+        "text": "The initiative is working with ESMAP’s Multi-Tier Framework\n(MTF) team (page 17) to adapt the MTF questionnaire\nto enable governments to better identify displacement\nsettings and address their electrification needs. Currently,\ngovernments facing influx of displaced people have\na hard time assessing the additional energy strains\nthese displacements occasion on host communities or\nintegrating the energy needs of displaced people in their\nelectrification plans.",
+        "metadata": {
+          "section": "Electricity Access",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1945,
+          "start_char": 1483,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3700
+        },
+        "cosine_distance": 0.19722394918417152,
+        "score": 0.8027760508158285,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 3,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "5899883b4e175748c8c76b58f49834e38cd909daa8d987836ec98973a25580df",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 24,
+        "text": "This target has two indicators:\n• Indicator 7.1.1: Proportion of population with access to electricity.\n• Indicator 7.1.2: Proportion of population with primary reliance on clean fuels and technology.\nTarget 7.2: Increase global percentage of renewable energy.\nTarget 7.3: Double the improvement in energy efficiency.\n• Target 7.A: Promote access to research, technology and investments in clean energy.\n• Target 7.B: Expand and upgrade energy services for developing countries.\nEnergyData.info.",
+        "metadata": {
+          "section": "Energy Data",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 858,
+          "start_char": 363,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3245
+        },
+        "cosine_distance": 0.2012156129970173,
+        "score": 0.7987843870029827,
+        "score_type": "cosine_similarity"
+      }
+    ]
+  },
+  {
+    "question": "Báo cáo mô tả các giải pháp lưu trữ năng lượng như thế nào?",
+    "strategy": "C",
+    "filter": {
+      "section": "Renewable Energy"
+    },
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "23b93a558244589d2b4944db9a2d5e8e0321d05fb987b49c4639988b665a23af",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 59,
+        "text": "It was critical in informing the design of the World\nBank’s project on accelerating renewable integration and sustainable energy, with a total of 50 MWh\nbattery storage capacity integrated into the project design.\nBOX 2.16",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 3339,
+          "start_char": 3117,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3339
+        },
+        "cosine_distance": 0.20775740215993221,
+        "score": 0.7922425978400678,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 2,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "f3f57e610ffea3b5e559df23381d018a6da1b8feb623f13dc191c8d21cfdd456",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 57,
+        "text": "battery storage, rooftop and floating solar, and offshore\nwind; and (3) build a pipeline of sustainable hydropower\nprojects in recognition of their role in power grids for\nsystem balancing, flood control, and irrigation.",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1765,
+          "start_char": 1545,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3006
+        },
+        "cosine_distance": 0.21320102254154472,
+        "score": 0.7867989774584553,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 3,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "da323880b6891b877c24dc59e74fa7838c45ea56b0ff5727d815961ee335da33",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 63,
+        "text": "55\nRenewable Energy\nPhoto © Fred. Olsen Windcarrier\nVIETNAM\nOFFSHORE WIND ROADMAP\nThe program led pioneering activities in Vietnam, a country facing rapidly increasing demand, where\nthe power system is expected to double in size by 2030 and near-term energy supply shortfalls could\noccur. Its footprint of fossil fuels could increase, in fact, as coal accounts for 34 percent of power\ngeneration, which could rise by 55 percent unless course correction is carried out in the coming year.",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 487,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 1143
+        },
+        "cosine_distance": 0.21373543780252768,
+        "score": 0.7862645621974723,
+        "score_type": "cosine_similarity"
+      }
+    ]
+  },
+  {
+    "question": "Báo cáo mô tả các giải pháp lưu trữ năng lượng như thế nào?",
+    "strategy": "C",
+    "filter": {
+      "section": "Renewable Energy",
+      "report_year": 2021
+    },
+    "hits": [
+      {
+        "rank": 1,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "23b93a558244589d2b4944db9a2d5e8e0321d05fb987b49c4639988b665a23af",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 59,
+        "text": "It was critical in informing the design of the World\nBank’s project on accelerating renewable integration and sustainable energy, with a total of 50 MWh\nbattery storage capacity integrated into the project design.\nBOX 2.16",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 3339,
+          "start_char": 3117,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3339
+        },
+        "cosine_distance": 0.20775740215993221,
+        "score": 0.7922425978400678,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 2,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "f3f57e610ffea3b5e559df23381d018a6da1b8feb623f13dc191c8d21cfdd456",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 57,
+        "text": "battery storage, rooftop and floating solar, and offshore\nwind; and (3) build a pipeline of sustainable hydropower\nprojects in recognition of their role in power grids for\nsystem balancing, flood control, and irrigation.",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 1765,
+          "start_char": 1545,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 3006
+        },
+        "cosine_distance": 0.21320102254154472,
+        "score": 0.7867989774584553,
+        "score_type": "cosine_similarity"
+      },
+      {
+        "rank": 3,
+        "strategy": "C",
+        "stored_strategy": "B",
+        "chunk_id": "da323880b6891b877c24dc59e74fa7838c45ea56b0ff5727d815961ee335da33",
+        "document_id": "esmap-annual-report-2021",
+        "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+        "page": 63,
+        "text": "55\nRenewable Energy\nPhoto © Fred. Olsen Windcarrier\nVIETNAM\nOFFSHORE WIND ROADMAP\nThe program led pioneering activities in Vietnam, a country facing rapidly increasing demand, where\nthe power system is expected to double in size by 2030 and near-term energy supply shortfalls could\noccur. Its footprint of fossil fuels could increase, in fact, as coal accounts for 34 percent of power\ngeneration, which could rise by 55 percent unless course correction is carried out in the coming year.",
+        "metadata": {
+          "section": "Renewable Energy",
+          "chunking": {
+            "method": "by_paragraph",
+            "overlap": 0,
+            "version": 1,
+            "max_size": 500,
+            "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+          },
+          "end_char": 487,
+          "start_char": 0,
+          "report_year": 2021,
+          "embedding_model": {
+            "files": [
+              {
+                "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+                "local_name": "model.onnx",
+                "remote_path": "onnx/model.onnx"
+              },
+              {
+                "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+                "local_name": "tokenizer.json",
+                "remote_path": "tokenizer.json"
+              }
+            ],
+            "backend": "onnxruntime",
+            "license": "MIT (model repository metadata)",
+            "pooling": "attention_mask_mean",
+            "variant": "onnx/model.onnx (FP32, no quantization)",
+            "provider": "local",
+            "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+            "batch_size": 8,
+            "dimensions": 384,
+            "max_tokens": 512,
+            "model_name": "intfloat/multilingual-e5-small",
+            "cpu_threads": 4,
+            "query_prefix": "query: ",
+            "normalization": "L2",
+            "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+            "document_prefix": "passage: ",
+            "local_directory": "models/multilingual-e5-small",
+            "overflow_policy": "raise; do not silently truncate"
+          },
+          "extraction_status": "ok",
+          "normalized_characters": 1143
+        },
+        "cosine_distance": 0.21373543780252768,
+        "score": 0.7862645621974723,
+        "score_type": "cosine_similarity"
+      }
+    ]
+  }
+]

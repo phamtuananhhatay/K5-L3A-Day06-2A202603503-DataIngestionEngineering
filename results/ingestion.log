@@ -1,0 +1,3 @@
+WARNING src.ingestion: No extractable text: document=esmap-annual-report-2021 page=82
+INFO src.ingestion: Read 82 physical pages: document=esmap-annual-report-2021
+INFO src.ingestion: Selected 38 valid content pages from manifest

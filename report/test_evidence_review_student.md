@@ -1,0 +1,470 @@
+# Rà soát evidence test của học viên
+
+> Bản rà soát do **Phạm Tuấn Anh** cung cấp, ngày 13/11/2026. Codex chỉ định dạng, đối chiếu ID/trang với trace và kiểm tra phép tổng hợp; không thay nhãn hoặc lý do của học viên. ID chunk viết rút gọn trong bảng; bản đầy đủ nằm ở results/test/student_review/chunk_reviews.jsonl.
+
+[S1]: ../benchmark/QUESTIONS_REVIEW.md
+[S2]: ../results/test/traces.jsonl
+
+Nguồn tham chiếu: **S1** = câu hỏi/evidence chuẩn q16–q20; **S2** = trace test gốc. Các ký hiệu citation trong bản dán được thay bằng hai tham chiếu này. Bản gốc được giữ tại [sources/test_evidence_review_student_original.txt](sources/test_evidence_review_student_original.txt).
+
+Người rà soát: Phạm Tuấn Anh
+Ngày rà soát: 13/11/2026
+
+Tôi đối chiếu evidence chuẩn của q16–q20 với từng chunk trong `results/test/traces.jsonl`. Tôi không sửa cấu hình hoặc chọn lại chiến lược theo kết quả test.
+
+---
+
+## q16 — Chiến lược A
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, Energy Data and Analytics Hub quản lý bốn sản phẩm bổ trợ nào để theo dõi SDG 7? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Tracking SDG 7 [S1]
+- Multi-Tier Framework [S1]
+- RISE [S1]
+- Energy Demand Estimation (thuộc Energy Data and Analytics Hub để theo dõi SDG 7) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 23 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `2e0c77a6...` | 23 | Thiếu | Thiếu danh sách bốn sản phẩm bổ trợ của Hub | Nói về vai trò của Data and Analytics Hub trong việc đánh giá tác động của COVID-19 đến tiếp cận năng lượng và SDG 7, chưa liệt kê đủ bốn sản phẩm [S2]. |
+| 2 | `57a7f5ff...` | 24 | Không có | Không chứa thông tin về bốn sản phẩm của Hub | Nói về 5 cơ quan phụ trách SDG 7 và vai trò của World Bank/ESMAP với dữ liệu điện khí hóa (SDG 7.1.1), không trả lời danh sách bốn sản phẩm của Hub [S2]. |
+| 3 | `58be04dc...` | 23 | Đủ | *"four synergetic products—Tracking SDG 7, the Multi-Tier Framework, RISE, and Energy Demand Estimation—that track SDG 7."* [S2] | Chunk nêu đúng chủ thể ESMAP Energy Data and Analytics Hub và liệt kê đầy đủ cả bốn sản phẩm bổ trợ, khớp đáp án chuẩn [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `[3]`
+- Hit@1: `0`
+- Hit@3: `1`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (chunk rank 3 chứa trọn vẹn thông tin) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không (chunk rank 3 khớp nguyên văn quote chuẩn) [S2].
+
+---
+
+## q16 — Chiến lược B
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, Energy Data and Analytics Hub quản lý bốn sản phẩm bổ trợ nào để theo dõi SDG 7? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Tracking SDG 7 [S1]
+- Multi-Tier Framework [S1]
+- RISE [S1]
+- Energy Demand Estimation [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 23 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `99f7cfca...` | 24 | Không có | Không nêu bốn sản phẩm của Hub | Nói về 5 cơ quan đồng xuất bản báo cáo SDG 7 và trách nhiệm dữ liệu điện khí hóa của World Bank/ESMAP [S2]. |
+| 2 | `db6e0691...` | 23 | Đủ | *"The hub manages several energy data platforms, as well as four synergetic products—Tracking SDG 7, the Multi-Tier Framework, RISE, and Energy Demand Estimation—that track SDG 7."* [S2] | Chunk nêu đầy đủ chủ thể Energy Data and Analytics Hub và liệt kê trọn vẹn 4 sản phẩm bổ trợ [S2]. |
+| 3 | `a16a94bb...` | 24 | Thiếu | Thiếu 3 sản phẩm còn lại và không nêu mối quan hệ quản lý trực thuộc Hub | Chỉ nhắc tới các ứng dụng GIS trên EnergyData.info và giới thiệu riêng báo cáo *Tracking SDG 7: Energy Progress Report* [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `[2]`
+- Hit@1: `0`
+- Hit@3: `1`
+- Có bằng chứng bị tách qua nhiều chunk không: Không [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không (khớp nguyên văn quote chuẩn ở rank 2) [S2].
+
+---
+
+## q16 — Chiến lược C
+
+*(Lưu ý: Top-3 chunk của Chiến lược C trùng hoàn toàn với Chiến lược B do câu hỏi không yêu cầu filter).*
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, Energy Data and Analytics Hub quản lý bốn sản phẩm bổ trợ nào để theo dõi SDG 7? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Tracking SDG 7 [S1]
+- Multi-Tier Framework [S1]
+- RISE [S1]
+- Energy Demand Estimation [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 23 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `99f7cfca...` | 24 | Không có | Không nêu bốn sản phẩm của Hub | Trùng Chiến lược B rank 1: chỉ nêu 5 cơ quan đồng xuất bản báo cáo SDG 7 [S2]. |
+| 2 | `db6e0691...` | 23 | Đủ | *"The hub manages several energy data platforms, as well as four synergetic products—Tracking SDG 7, the Multi-Tier Framework, RISE, and Energy Demand Estimation—that track SDG 7."* [S2] | Trùng Chiến lược B rank 2: nêu đầy đủ chủ thể Hub và cả 4 sản phẩm bổ trợ [S2]. |
+| 3 | `a16a94bb...` | 24 | Thiếu | Thiếu 3 sản phẩm còn lại và vai trò quản lý của Hub | Trùng Chiến lược B rank 3: chỉ mô tả ứng dụng GIS và riêng báo cáo *Tracking SDG 7* [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `[2]`
+- Hit@1: `0`
+- Hit@3: `1`
+- Có bằng chứng bị tách qua nhiều chunk không: Không [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q17 — Chiến lược A
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, khung phân tích trong báo cáo về tái sử dụng nhà máy than già cỗi xem xét ba phương án chuyển đổi công năng nào? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Phát điện mặt trời (solar energy generation) [S1]
+- Lưu trữ năng lượng bằng pin (battery energy storage) [S1]
+- Máy bù đồng bộ (synchronous condenser) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 31 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `b6196f13...` | 28 | Không có | Không nhắc đến nhà máy than hay khung phân tích tái sử dụng | Nói về trung tâm chuyên môn cải cách thị trường điện và chú thích biểu đồ Figure 2.1 [S2]. |
+| 2 | `730ae7cb...` | 31 | Thiếu | Thiếu nội dung về khung phân tích chi phí - lợi ích và 3 phương án chuyển đổi công năng | Đúng trang 31 và có nhắc chủ đề *coal plant repurposing*, nhưng chỉ nêu tổng quan các sáng kiến hỗ trợ vùng chuyển dịch than tại Tây Balkan và Ukraine, bị cắt trước đoạn liệt kê 3 phương án [S2]. |
+| 3 | `56ed0a67...` | 27 | Không có | Không nhắc đến tái sử dụng nhà máy than | Nêu 5 lĩnh vực chính sách tổng quát của chương trình Foundation for Energy Transition [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (các chunk còn lại ở trang 27 và 28, không chứa phần tiếp theo của trang 31) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q17 — Chiến lược B
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, khung phân tích trong báo cáo về tái sử dụng nhà máy than già cỗi xem xét ba phương án chuyển đổi công năng nào? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Phát điện mặt trời (solar energy generation) [S1]
+- Lưu trữ năng lượng bằng pin (battery energy storage) [S1]
+- Máy bù đồng bộ (synchronous condenser) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 31 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `7613b14d...` | 38 | Không có | Không có nội dung văn bản liên quan | Chỉ là tiêu đề trang và dòng ghi nguồn ảnh (*Photo © istockphoto*) [S2]. |
+| 2 | `face1c7e...` | 27 | Không có | Không nhắc đến nhà máy than hay 3 phương án chuyển đổi | Nêu khung chính sách tổng quát 5 lĩnh vực của Foundation for Energy Transition [S2]. |
+| 3 | `5da67a4f...` | 52 | Không có | Không liên quan đến nhà máy than | Nói về trọng tâm FY2021 của chương trình điện mặt trời ngoài lưới (off-grid solar) [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (không truy xuất được trang 31) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q17 — Chiến lược C
+
+*(Lưu ý: Top-3 chunk của Chiến lược C trùng hoàn toàn với Chiến lược B).*
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, khung phân tích trong báo cáo về tái sử dụng nhà máy than già cỗi xem xét ba phương án chuyển đổi công năng nào? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Phát điện mặt trời (solar energy generation) [S1]
+- Lưu trữ năng lượng bằng pin (battery energy storage) [S1]
+- Máy bù đồng bộ (synchronous condenser) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 31 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `7613b14d...` | 38 | Không có | Không có nội dung liên quan | Trùng Chiến lược B rank 1: chỉ có tiêu đề trang và chú thích bản quyền ảnh [S2]. |
+| 2 | `face1c7e...` | 27 | Không có | Không liên quan đến nhà máy than | Trùng Chiến lược B rank 2: chỉ nêu chương trình Foundation for Energy Transition [S2]. |
+| 3 | `5da67a4f...` | 52 | Không có | Không liên quan đến nhà máy than | Trùng Chiến lược B rank 3: chỉ nêu chương trình off-grid solar [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q18 — Chiến lược A
+
+**Câu hỏi:**
+Chỉ xét mục Accelerating Decarbonization trong báo cáo ESMAP 2021: nghiên cứu tại Kazakhstan nêu nguyên nhân nào khiến thị trường nhiệt địa nhiệt chưa khuyến khích đầu tư tư nhân/nhu cầu công chúng, và vấn đề gì làm quy trình cấp phép thiếu rõ ràng? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Nguyên nhân thị trường nhiệt địa nhiệt chưa khuyến khích đầu tư tư nhân/nhu cầu công chúng: trợ cấp nhiên liệu phổ biến (prevalence of fuel subsidies) [S1]
+- Vấn đề làm quy trình cấp phép thiếu rõ ràng: thuộc trách nhiệm/nằm trong tay nhiều cơ quan (in the hands of many institutions) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 41 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `3a57ce6a...` | 40 | Không có | Không nêu kết quả nghiên cứu tại Kazakhstan | Chỉ nhắc chung việc khởi động hỗ trợ kỹ thuật đánh giá tiềm năng địa nhiệt tại Kazakhstan và Thổ Nhĩ Kỳ trong FY2021 [S2]. |
+| 2 | `26b9934f...` | 41 | Thiếu | Bị cắt ngay cụm *"public demand for GDU h"*, thiếu cả nguyên nhân trợ cấp nhiên liệu và vấn đề cấp phép do nhiều cơ quan | Đúng trang 41 và nêu đúng tên nghiên cứu đầu tiên tại Kazakhstan, nhưng chunk bị cắt giữa từ nên thiếu toàn bộ phần giải thích nguyên nhân [S2]. |
+| 3 | `a5891606...` | 40 | Không có | Không nhắc đến Kazakhstan hay kết quả nghiên cứu | Chỉ giới thiệu tổng quan công suất nhiệt địa nhiệt toàn cầu (107 GWt) và mục tiêu chương trình Geothermal Direct Use [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (phần tiếp theo của đoạn văn trên trang 41 không xuất hiện trong top-3) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q18 — Chiến lược B
+
+**Câu hỏi:**
+Chỉ xét mục Accelerating Decarbonization trong báo cáo ESMAP 2021: nghiên cứu tại Kazakhstan nêu nguyên nhân nào khiến thị trường nhiệt địa nhiệt chưa khuyến khích đầu tư tư nhân/nhu cầu công chúng, và vấn đề gì làm quy trình cấp phép thiếu rõ ràng? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Nguyên nhân thị trường nhiệt địa nhiệt chưa khuyến khích đầu tư tư nhân/nhu cầu công chúng: trợ cấp nhiên liệu phổ biến (prevalence of fuel subsidies) [S1]
+- Vấn đề làm quy trình cấp phép thiếu rõ ràng: thuộc trách nhiệm/nằm trong tay nhiều cơ quan (in the hands of many institutions) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 41 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `f78bc815...` | 41 | Đủ | *"found that the market environment for geothermal heat is not encouraging for private investment in GDU or public demand for GDU heating services, due to the prevalence of fuel subsidies. This study also found that the geothermal permitting and licensing process is rather unclear, as it is in the hands of many institutions."* [S2] | Chunk chứa trọn vẹn đoạn văn về nghiên cứu đầu tiên tại Kazakhstan, nêu rõ cả hai nguyên nhân (trợ cấp nhiên liệu phổ biến và quy trình cấp phép nằm trong tay nhiều cơ quan) [S2]. |
+| 2 | `5c0b8be8...` | 41 | Thiếu | Thiếu toàn bộ phát hiện của nghiên cứu | Chỉ là đoạn mở đầu giới thiệu Kazakhstan có tài nguyên địa nhiệt lớn và ESMAP hỗ trợ 2 nghiên cứu cùng Iceland [S2]. |
+| 3 | `42c4437a...` | 40 | Không có | Không nêu phát hiện của nghiên cứu | Chỉ nhắc việc khởi động hỗ trợ kỹ thuật địa nhiệt tại Kazakhstan và Thổ Nhĩ Kỳ trong FY2021 [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `[1]`
+- Hit@1: `1`
+- Hit@3: `1`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (chunk rank 1 chứa đầy đủ toàn bộ bằng chứng) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không (khớp nguyên văn quote chuẩn ở rank 1) [S2].
+
+---
+
+## q18 — Chiến lược C
+
+*(Lưu ý: Top-3 chunk của Chiến lược C trùng hoàn toàn với Chiến lược B).*
+
+**Câu hỏi:**
+Chỉ xét mục Accelerating Decarbonization trong báo cáo ESMAP 2021: nghiên cứu tại Kazakhstan nêu nguyên nhân nào khiến thị trường nhiệt địa nhiệt chưa khuyến khích đầu tư tư nhân/nhu cầu công chúng, và vấn đề gì làm quy trình cấp phép thiếu rõ ràng? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Nguyên nhân thị trường nhiệt địa nhiệt chưa khuyến khích đầu tư tư nhân/nhu cầu công chúng: trợ cấp nhiên liệu phổ biến (prevalence of fuel subsidies) [S1]
+- Vấn đề làm quy trình cấp phép thiếu rõ ràng: thuộc trách nhiệm/nằm trong tay nhiều cơ quan (in the hands of many institutions) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 41 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `f78bc815...` | 41 | Đủ | *"due to the prevalence of fuel subsidies... as it is in the hands of many institutions."* [S2] | Trùng Chiến lược B rank 1: chứa đầy đủ cả hai nguyên nhân và đúng section `Accelerating Decarbonization` [S2]. |
+| 2 | `5c0b8be8...` | 41 | Thiếu | Thiếu phát hiện của nghiên cứu | Trùng Chiến lược B rank 2: chỉ là đoạn dẫn nhập về tài nguyên địa nhiệt Kazakhstan [S2]. |
+| 3 | `42c4437a...` | 40 | Không có | Không nêu phát hiện nghiên cứu | Trùng Chiến lược B rank 3: chỉ nhắc việc khởi động hỗ trợ kỹ thuật ở Kazakhstan và Thổ Nhĩ Kỳ [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `[1]`
+- Hit@1: `1`
+- Hit@3: `1`
+- Có bằng chứng bị tách qua nhiều chunk không: Không [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q19 — Chiến lược A
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, Financial Innovation for Access định hướng cung cấp nguồn tài chính như thế nào trong quan hệ với thị trường tư nhân? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Cung cấp nguồn tài chính bổ sung (provides additional financing) [S1]
+- Thay vì loại trừ hoặc cạnh tranh với thị trường tư nhân (instead of excluding or competing with private markets) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 55 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `56ed0a67...` | 27 | Không có | Không nhắc đến Financial Innovation for Access | Nói về chương trình Foundation for Energy Transition và cải cách mô hình kinh doanh cho các công ty điện lực [S2]. |
+| 2 | `6e2a683f...` | 49 | Thiếu | Chỉ liệt kê tên mảng công việc *(6) Financial Innovation for Electricity Access*, thiếu nội dung định hướng tài chính bổ sung và không cạnh tranh với thị trường tư nhân | Nhắc đúng tên workstream ở trang tổng quan chương trình Electricity Access nhưng không mô tả cách thức hoạt động của sáng kiến [S2]. |
+| 3 | `b6196f13...` | 28 | Không có | Không nhắc đến Financial Innovation for Access | Nói về trung tâm chuyên môn cải cách thị trường điện và chú thích biểu đồ Figure 2.1 [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (trang 55 không có trong top-3) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q19 — Chiến lược B
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, Financial Innovation for Access định hướng cung cấp nguồn tài chính như thế nào trong quan hệ với thị trường tư nhân? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Cung cấp nguồn tài chính bổ sung (provides additional financing) [S1]
+- Thay vì loại trừ hoặc cạnh tranh với thị trường tư nhân (instead of excluding or competing with private markets) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 55 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `5da67a4f...` | 52 | Không có | Không nhắc đến Financial Innovation for Access | Nói về trọng tâm FY2021 của chương trình điện mặt trời ngoài lưới (off-grid solar) [S2]. |
+| 2 | `7613b14d...` | 38 | Không có | Không có nội dung liên quan | Chỉ là tiêu đề trang và dòng ghi bản quyền ảnh [S2]. |
+| 3 | `face1c7e...` | 27 | Không có | Không nhắc đến Financial Innovation for Access | Nói về khung chính sách 5 lĩnh vực của Foundation for Energy Transition [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (trang 55 không có trong top-3) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q19 — Chiến lược C
+
+*(Lưu ý: Top-3 chunk của Chiến lược C trùng hoàn toàn với Chiến lược B).*
+
+**Câu hỏi:**
+Theo báo cáo ESMAP 2021, Financial Innovation for Access định hướng cung cấp nguồn tài chính như thế nào trong quan hệ với thị trường tư nhân? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Cung cấp nguồn tài chính bổ sung (provides additional financing) [S1]
+- Thay vì loại trừ hoặc cạnh tranh với thị trường tư nhân (instead of excluding or competing with private markets) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 55 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `5da67a4f...` | 52 | Không có | Không liên quan đến Financial Innovation for Access | Trùng Chiến lược B rank 1: chỉ nêu chương trình off-grid solar [S2]. |
+| 2 | `7613b14d...` | 38 | Không có | Không có nội dung liên quan | Trùng Chiến lược B rank 2: chỉ có tiêu đề trang và chú thích ảnh [S2]. |
+| 3 | `face1c7e...` | 27 | Không có | Không liên quan đến Financial Innovation for Access | Trùng Chiến lược B rank 3: chỉ nêu Foundation for Energy Transition [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q20 — Chiến lược A
+
+**Câu hỏi:**
+Chỉ xét mục Renewable Energy trong báo cáo ESMAP 2021: trong trường hợp điện mặt trời nổi tại Tajikistan, những công việc nào chỉ được tiến hành sau khi đánh giá kỹ thuật hoàn tất? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Sàng lọc môi trường và xã hội ở mức tổng quát (high-level environmental and social screening) [S1]
+- Nghiên cứu các phương án tài chính (studies of financing options) [S1]
+- Điều kiện thứ tự: chỉ được thực hiện sau khi đánh giá kỹ thuật hoàn tất (once the technical assessment is completed) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 62 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `8da4ce4b...` | 62 | Thiếu | Có nhắc *"A high-level environmental and social screening and studies of financing options will be"*, nhưng bị cắt mất vế điều kiện *"performed once the technical assessment is completed."* [S2] | Chunk nêu đúng dự án tại Tajikistan và hai công việc cần làm, nhưng bị cắt cụt trước điều kiện/thứ tự thực hiện sau khi đánh giá kỹ thuật hoàn tất nên một mình chunk này chưa đủ để trả lời [S2]. |
+| 2 | `57a7f5ff...` | 24 | Không có | Không liên quan đến Tajikistan hay điện mặt trời nổi (sai cả section `Energy Data`) | Nói về các cơ quan phụ trách báo cáo SDG 7 và dữ liệu điện khí hóa [S2]. |
+| 3 | `b6196f13...` | 28 | Không có | Không liên quan đến Tajikistan hay điện mặt trời nổi (sai cả section `Foundations of Energy Transition`) | Nói về trung tâm chuyên môn cải cách thị trường điện và chú thích biểu đồ Figure 2.1 [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (phần đuôi của câu ở trang 62 không xuất hiện trong top-3) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q20 — Chiến lược B
+
+**Câu hỏi:**
+Chỉ xét mục Renewable Energy trong báo cáo ESMAP 2021: trong trường hợp điện mặt trời nổi tại Tajikistan, những công việc nào chỉ được tiến hành sau khi đánh giá kỹ thuật hoàn tất? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Sàng lọc môi trường và xã hội ở mức tổng quát (high-level environmental and social screening) [S1]
+- Nghiên cứu các phương án tài chính (studies of financing options) [S1]
+- Điều kiện thứ tự: chỉ được thực hiện sau khi đánh giá kỹ thuật hoàn tất (once the technical assessment is completed) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 62 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `033289c6...` | 62 | Thiếu | Thiếu hoàn toàn câu cuối nêu việc sàng lọc môi trường/xã hội, nghiên cứu phương án tài chính và điều kiện hoàn tất đánh giá kỹ thuật | Chỉ chứa hai câu đầu mô tả đánh giá tiền khả thi kỹ thuật - kinh tế hiện tại (xây dựng, neo đậu, đấu nối lưới điện) cho dự án tại Tajikistan [S2]. |
+| 2 | `7613b14d...` | 38 | Không có | Không có nội dung liên quan (sai section `Accelerating Decarbonization`) | Chỉ là tiêu đề trang và dòng ghi bản quyền ảnh [S2]. |
+| 3 | `5da67a4f...` | 52 | Không có | Không liên quan đến Tajikistan (sai section `Electricity Access`) | Nói về chương trình điện mặt trời ngoài lưới (off-grid solar) [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không (câu cuối của đoạn trên trang 62 không có trong top-3) [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## q20 — Chiến lược C
+
+**Câu hỏi:**
+Chỉ xét mục Renewable Energy trong báo cáo ESMAP 2021: trong trường hợp điện mặt trời nổi tại Tajikistan, những công việc nào chỉ được tiến hành sau khi đánh giá kỹ thuật hoàn tất? [S1] [S2]
+
+**Các ý bắt buộc:**
+- Sàng lọc môi trường và xã hội ở mức tổng quát (high-level environmental and social screening) [S1]
+- Nghiên cứu các phương án tài chính (studies of financing options) [S1]
+- Điều kiện thứ tự: chỉ được thực hiện sau khi đánh giá kỹ thuật hoàn tất (once the technical assessment is completed) [S1]
+
+**Nguồn/trang evidence chuẩn:**
+`esmap-annual-report-2021`, trang PDF 62 [S1] [S2]
+
+| Rank | Chunk ID | Trang | Nhãn: Đủ/Thiếu/Không có | Đoạn chứng minh hoặc ý còn thiếu | Lý do |
+|---|---|---:|---|---|---|
+| 1 | `033289c6...` | 62 | Thiếu | Thiếu hoàn toàn câu cuối về sàng lọc môi trường/xã hội, nghiên cứu tài chính và điều kiện hoàn tất đánh giá kỹ thuật | Trùng Chiến lược B rank 1: chỉ mô tả phạm vi đánh giá kỹ thuật đang diễn ra tại Tajikistan [S2]. |
+| 2 | `66ca1792...` | 57 | Không có | Không nhắc đến Tajikistan hay điện mặt trời nổi | Đúng section `Renewable Energy`, nhưng chỉ nêu chiến lược 3 mũi nhọn tổng quát mở rộng công nghệ năng lượng tái tạo ở các nước đang phát triển [S2]. |
+| 3 | `e9ce3ae8...` | 65 | Không có | Sai quốc gia và dự án (nói về Indonesia) | Đúng section `Renewable Energy`, nhưng nói về dự án thủy điện Upper Cisokan tại Indonesia chứ không phải Tajikistan [S2]. |
+
+**Kết luận:**
+- Rank đủ bằng chứng: `không có`
+- Hit@1: `0`
+- Hit@3: `0`
+- Có bằng chứng bị tách qua nhiều chunk không: Không [S2].
+- Có dùng bằng chứng tương đương quote chuẩn không: Không [S2].
+
+---
+
+## Bảng tổng hợp kết quả rà soát (q16–q20)
+
+| Câu | Strategy | Rank đủ bằng chứng | Hit@1 | Hit@3 |
+|---|---|---|---:|---:|
+| q16 | A | 3 | 0 | 1 |
+| q16 | B | 2 | 0 | 1 |
+| q16 | C | 2 | 0 | 1 |
+| q17 | A | không có | 0 | 0 |
+| q17 | B | không có | 0 | 0 |
+| q17 | C | không có | 0 | 0 |
+| q18 | A | không có | 0 | 0 |
+| q18 | B | 1 | 1 | 1 |
+| q18 | C | 1 | 1 | 1 |
+| q19 | A | không có | 0 | 0 |
+| q19 | B | không có | 0 | 0 |
+| q19 | C | không có | 0 | 0 |
+| q20 | A | không có | 0 | 0 |
+| q20 | B | không có | 0 | 0 |
+| q20 | C | không có | 0 | 0 |
+
+## Kết quả tổng hợp theo nhãn của học viên
+
+| Strategy | Hit@1 | Evidence Hit@3 |
+|---|---|---|
+| A | 0/5 | 1/5 |
+| B | 1/5 | 2/5 |
+| C | 1/5 | 2/5 |
+
+Cả 45 nhãn đủ/không đủ khớp baseline tự động. Không thay đổi điểm hoặc lựa chọn C. Đây là rà soát evidence của học viên; chưa thay thế bảng chấm coherence, metadata và grounding theo rubric.

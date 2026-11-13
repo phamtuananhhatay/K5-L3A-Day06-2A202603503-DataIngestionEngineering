@@ -1,0 +1,19 @@
+{
+  "version": "evidence-policy-v1",
+  "reviewer": "Codex (AI-assisted source review; not an independent human assessor)",
+  "single_chunk_required": true,
+  "rules": [
+    "A hit must identify a valid source/page and contain all facts required to answer the question, including units, dates, conditions and exceptions.",
+    "Accept the original recorded quote or a documented source-verified equivalent quote, consistently across A/B/C.",
+    "A redundant lead-in can be omitted if the required facts and their referent remain identifiable from the chunk and explicit question context.",
+    "Numbered identifiers such as 7.1.1 and 7.1.2 can identify the requested target without repeating its heading.",
+    "Do not assemble multiple partial chunks into a hit for the main metric.",
+    "Correct page alone, topic similarity, source knowledge outside the chunk, or high similarity score is not enough.",
+    "Keep automatic baseline, review decisions, evidence additions and reviewed metrics separately. Declare that dev review happened after dev retrieval.",
+    "Any future test evidence adjudication must apply these same rules, disclose the reviewer and preserve original traces; no tuning/reselection using test results."
+  ],
+  "normalization": "Unicode NFC and whitespace only",
+  "dev_additions_file": "benchmark/dev_evidence_additions.json",
+  "test_execution_authorized_by_this_file": false,
+  "human_grounding_or_coherence_labels_created": false
+}

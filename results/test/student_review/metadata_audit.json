@@ -1,0 +1,733 @@
+{
+  "reviewer": "Phạm Tuấn Anh",
+  "learner_reported_counts": {
+    "A": "15/15",
+    "B": "15/15",
+    "C": "15/15"
+  },
+  "learner_reported_errors": [],
+  "technical_check": "45/45 text slices and source/page/section agree with original PDF and manifest",
+  "filter_note": "A/B intentionally have no applied filter; this is not a metadata error",
+  "records": [
+    {
+      "question_id": "q16",
+      "strategy": "A",
+      "rank": 1,
+      "chunk_id": "2e0c77a6b95d02ae89bfde35187f59f6430a8b5db1d1e009b052fbc88a568d61",
+      "page": 23,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "A",
+      "rank": 2,
+      "chunk_id": "57a7f5ff3c00998519d37928b1c25d54bef9df05c21f329528e4321d7135f377",
+      "page": 24,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "A",
+      "rank": 3,
+      "chunk_id": "58be04dc81f97a5b3ac1592e2d022b8535c99e629c48b256533a987cd75a3373",
+      "page": 23,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "B",
+      "rank": 1,
+      "chunk_id": "99f7cfcaccf7d3f181417571bf5317964e77495db36c330d5e6cc02fc1b84366",
+      "page": 24,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "B",
+      "rank": 2,
+      "chunk_id": "db6e06911aec9f2390fbae644f521eedd8b22a86dc7e3c1654ee97b015c7f95c",
+      "page": 23,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "B",
+      "rank": 3,
+      "chunk_id": "a16a94bb7d47953653d1e1d416a7f39f68273749b6cb25baad7ba4b2631846c5",
+      "page": 24,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "C",
+      "rank": 1,
+      "chunk_id": "99f7cfcaccf7d3f181417571bf5317964e77495db36c330d5e6cc02fc1b84366",
+      "page": 24,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "C",
+      "rank": 2,
+      "chunk_id": "db6e06911aec9f2390fbae644f521eedd8b22a86dc7e3c1654ee97b015c7f95c",
+      "page": 23,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q16",
+      "strategy": "C",
+      "rank": 3,
+      "chunk_id": "a16a94bb7d47953653d1e1d416a7f39f68273749b6cb25baad7ba4b2631846c5",
+      "page": 24,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "A",
+      "rank": 1,
+      "chunk_id": "b6196f137320391dce946e73278f140b5203dff1b94021fed9c7650f9b980f7d",
+      "page": 28,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "A",
+      "rank": 2,
+      "chunk_id": "730ae7cb18aa033896ca581233811c03076f26967a2d0784ea7061c67ae673b9",
+      "page": 31,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "A",
+      "rank": 3,
+      "chunk_id": "56ed0a67f4716b16d84fa6496a1753f041a11e12c85513c68b4be2152d2ddb37",
+      "page": 27,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "B",
+      "rank": 1,
+      "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+      "page": 38,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "B",
+      "rank": 2,
+      "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+      "page": 27,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "B",
+      "rank": 3,
+      "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+      "page": 52,
+      "section": "Electricity Access",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "C",
+      "rank": 1,
+      "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+      "page": 38,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "C",
+      "rank": 2,
+      "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+      "page": 27,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q17",
+      "strategy": "C",
+      "rank": 3,
+      "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+      "page": 52,
+      "section": "Electricity Access",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "A",
+      "rank": 1,
+      "chunk_id": "3a57ce6a731f1fac3821c531193e55d5101dc05bdbad0d51b2f1b3a3706d445c",
+      "page": 40,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "A",
+      "rank": 2,
+      "chunk_id": "26b9934ff240ab2274c4cf5c0caf09398e651f111779c6efe03ddda8555e9d64",
+      "page": 41,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "A",
+      "rank": 3,
+      "chunk_id": "a5891606634d105161ba3de19ff09a67726e37cb25a9b2a1a6d3903dba889f05",
+      "page": 40,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "B",
+      "rank": 1,
+      "chunk_id": "f78bc81584e856d3338625e27249fd68ac932138bfc5b50157ec87ef613f537c",
+      "page": 41,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "B",
+      "rank": 2,
+      "chunk_id": "5c0b8be82e82a820bf58b53db6d279de777f2d2cb46a0849ed1a5ab25a5192f0",
+      "page": 41,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "B",
+      "rank": 3,
+      "chunk_id": "42c4437a5401583b92c67fe724b4fa6f5bcc312fe440bbcc45d7963a589e904c",
+      "page": 40,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "C",
+      "rank": 1,
+      "chunk_id": "f78bc81584e856d3338625e27249fd68ac932138bfc5b50157ec87ef613f537c",
+      "page": 41,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "C",
+      "rank": 2,
+      "chunk_id": "5c0b8be82e82a820bf58b53db6d279de777f2d2cb46a0849ed1a5ab25a5192f0",
+      "page": 41,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q18",
+      "strategy": "C",
+      "rank": 3,
+      "chunk_id": "42c4437a5401583b92c67fe724b4fa6f5bcc312fe440bbcc45d7963a589e904c",
+      "page": 40,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "A",
+      "rank": 1,
+      "chunk_id": "56ed0a67f4716b16d84fa6496a1753f041a11e12c85513c68b4be2152d2ddb37",
+      "page": 27,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "A",
+      "rank": 2,
+      "chunk_id": "6e2a683f32325068c56c98879c298b1e209b0e01d17002e4ba0448e0a3814a31",
+      "page": 49,
+      "section": "Electricity Access",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "A",
+      "rank": 3,
+      "chunk_id": "b6196f137320391dce946e73278f140b5203dff1b94021fed9c7650f9b980f7d",
+      "page": 28,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "B",
+      "rank": 1,
+      "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+      "page": 52,
+      "section": "Electricity Access",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "B",
+      "rank": 2,
+      "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+      "page": 38,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "B",
+      "rank": 3,
+      "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+      "page": 27,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "C",
+      "rank": 1,
+      "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+      "page": 52,
+      "section": "Electricity Access",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "C",
+      "rank": 2,
+      "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+      "page": 38,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q19",
+      "strategy": "C",
+      "rank": 3,
+      "chunk_id": "face1c7ea25b0d91b169892350ffdcd6976135ce0f8fcaa4e8af344bb0705b0c",
+      "page": 27,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "A",
+      "rank": 1,
+      "chunk_id": "8da4ce4bb37c6686146bb49b70b93df36f78314baa634e47decb46496cd6ad19",
+      "page": 62,
+      "section": "Renewable Energy",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "A",
+      "rank": 2,
+      "chunk_id": "57a7f5ff3c00998519d37928b1c25d54bef9df05c21f329528e4321d7135f377",
+      "page": 24,
+      "section": "Energy Data",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "A",
+      "rank": 3,
+      "chunk_id": "b6196f137320391dce946e73278f140b5203dff1b94021fed9c7650f9b980f7d",
+      "page": 28,
+      "section": "Foundations of Energy Transition",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "B",
+      "rank": 1,
+      "chunk_id": "033289c62355e3c71a58f7648772f540c1d1f2164b4df81b831231dfa245680c",
+      "page": 62,
+      "section": "Renewable Energy",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "B",
+      "rank": 2,
+      "chunk_id": "7613b14df9780a2799bf6de9d503f00dd49e1d0ceb893df512c95b754ad87bd9",
+      "page": 38,
+      "section": "Accelerating Decarbonization",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "B",
+      "rank": 3,
+      "chunk_id": "5da67a4fc115c390c218be1e27ee3bcaf069fd964de35a952e472ae9c5f72783",
+      "page": 52,
+      "section": "Electricity Access",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "C",
+      "rank": 1,
+      "chunk_id": "033289c62355e3c71a58f7648772f540c1d1f2164b4df81b831231dfa245680c",
+      "page": 62,
+      "section": "Renewable Energy",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "C",
+      "rank": 2,
+      "chunk_id": "66ca1792ab33e7331940d8565e904293265193a19fc711eba3fe733d04f9dfa0",
+      "page": 57,
+      "section": "Renewable Energy",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    },
+    {
+      "question_id": "q20",
+      "strategy": "C",
+      "rank": 3,
+      "chunk_id": "e9ce3ae8365e035831ae40e73dfba9512f315a3b4820730ce0e106bd9933327e",
+      "page": 65,
+      "section": "Renewable Energy",
+      "learner_verdict": "đủ và đúng",
+      "reviewer": "Phạm Tuấn Anh",
+      "checks_against_source": {
+        "document_id": true,
+        "source": true,
+        "page_text_slice": true,
+        "section": true
+      }
+    }
+  ]
+}

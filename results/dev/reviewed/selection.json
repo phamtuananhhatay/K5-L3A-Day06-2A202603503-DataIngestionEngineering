@@ -1,0 +1,33 @@
+{
+  "selected_strategy": "C",
+  "metrics": {
+    "strategy": "C",
+    "split": "dev",
+    "questions": 15,
+    "hit_at_1": {
+      "numerator": 9,
+      "denominator": 15,
+      "value": 0.6
+    },
+    "evidence_hit_at_3": {
+      "numerator": 10,
+      "denominator": 15,
+      "value": 0.6666666666666666
+    },
+    "filter_compliance": {
+      "numerator": 6,
+      "denominator": 6,
+      "value": 1.0
+    },
+    "miss_question_ids": [
+      "q01",
+      "q03",
+      "q07",
+      "q08",
+      "q13"
+    ]
+  },
+  "basis": "Original criterion: dev Hit@3, then Hit@1. Resource tie-break not needed.",
+  "reviewer": "Codex (AI-assisted evidence review, not independent human assessment)",
+  "test_executed": false
+}

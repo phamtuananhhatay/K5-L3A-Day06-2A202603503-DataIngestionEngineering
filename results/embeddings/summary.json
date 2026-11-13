@@ -1,0 +1,87 @@
+{
+  "model": {
+    "provider": "local",
+    "model_name": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "license": "MIT (model repository metadata)",
+    "backend": "onnxruntime",
+    "variant": "onnx/model.onnx (FP32, no quantization)",
+    "local_directory": "models/multilingual-e5-small",
+    "dimensions": 384,
+    "max_tokens": 512,
+    "document_prefix": "passage: ",
+    "query_prefix": "query: ",
+    "pooling": "attention_mask_mean",
+    "normalization": "L2",
+    "overflow_policy": "raise; do not silently truncate",
+    "batch_size": 8,
+    "cpu_threads": 4,
+    "files": [
+      {
+        "remote_path": "onnx/model.onnx",
+        "local_name": "model.onnx",
+        "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665"
+      },
+      {
+        "remote_path": "tokenizer.json",
+        "local_name": "tokenizer.json",
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      }
+    ]
+  },
+  "started_at_utc": "2026-11-13T10:55:31.038465+00:00",
+  "python": "3.11.9",
+  "runtime_versions": {
+    "numpy": "2.4.6",
+    "onnxruntime": "1.31.1",
+    "tokenizers": "0.23.3"
+  },
+  "model_load_seconds": 3.204,
+  "paid_service_cost_usd": 0,
+  "cost_note": "Local CPU inference; excludes electricity, hardware and network costs",
+  "strategies": {
+    "A": {
+      "chunks": 237,
+      "dimensions": 384,
+      "shape": [
+        237,
+        384
+      ],
+      "dtype": "float32",
+      "chunk_file": "results/chunking/chunks_A.jsonl",
+      "chunk_file_sha256": "072a1dfa3372456fbfc6e559ab465fab5360746fab2e61fdece4c3f730231405",
+      "vector_file_sha256": "a15f7fc142654cdba3cb820b306aac4a1d6dbe5148be025f5bcaac2db4403466",
+      "embedding_seconds": 9.842,
+      "min_tokens_with_prefix": 19,
+      "max_tokens_with_prefix": 140,
+      "total_tokens_with_prefix": 24853,
+      "truncated_inputs": 0,
+      "min_norm": 0.9999998807907104,
+      "max_norm": 1.0000001192092896
+    },
+    "B": {
+      "chunks": 270,
+      "dimensions": 384,
+      "shape": [
+        270,
+        384
+      ],
+      "dtype": "float32",
+      "chunk_file": "results/chunking/chunks_B.jsonl",
+      "chunk_file_sha256": "89c2d3329af1ec29e787ed2d34e55a058f642462b55b765d75ecfef0311e050f",
+      "vector_file_sha256": "3ba8961f60c32c070e7c7f4232f6d640e7da5cec20bff0e4bd3ad190552f0805",
+      "embedding_seconds": 10.044,
+      "min_tokens_with_prefix": 12,
+      "max_tokens_with_prefix": 123,
+      "total_tokens_with_prefix": 22587,
+      "truncated_inputs": 0,
+      "min_norm": 0.9999998807907104,
+      "max_norm": 1.0000001192092896
+    }
+  },
+  "retrieval_executed": false,
+  "checks": "pass: shape, finite values, unit norm, no truncation, query compatibility, batch invariance",
+  "C_plan": "Reuse B vectors with exactly the same model; apply filter at vector-store query time",
+  "total_seconds": 23.325
+}

@@ -1,0 +1,185 @@
+{
+  "version": "pipeline-pretest-v1",
+  "frozen_at_utc": "2026-11-13T11:22:57.650080+00:00",
+  "status": "frozen_before_test",
+  "selected_strategy": "C",
+  "selection_basis": "Reviewed dev Hit@3 ties B at 10/15, Hit@1 C=9/15 exceeds B=8/15. No resource tie-break needed.",
+  "chunking": {
+    "version": "chunking-v1",
+    "unit": "unicode_characters",
+    "scope": "one physical PDF page per chunk; source text unchanged",
+    "A": {
+      "method": "fixed_size",
+      "size": 500,
+      "overlap": 50
+    },
+    "B": {
+      "method": "by_paragraph",
+      "max_size": 500,
+      "overlap": 0
+    },
+    "C_planned": "Reuse B chunks; apply metadata filter only when supplied in the question",
+    "selection_note": "Initial parameters fixed before retrieval; no test-result tuning"
+  },
+  "embedding": {
+    "provider": "local",
+    "model_name": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+    "license": "MIT (model repository metadata)",
+    "backend": "onnxruntime",
+    "variant": "onnx/model.onnx (FP32, no quantization)",
+    "local_directory": "models/multilingual-e5-small",
+    "dimensions": 384,
+    "max_tokens": 512,
+    "document_prefix": "passage: ",
+    "query_prefix": "query: ",
+    "pooling": "attention_mask_mean",
+    "normalization": "L2",
+    "overflow_policy": "raise; do not silently truncate",
+    "batch_size": 8,
+    "cpu_threads": 4,
+    "files": [
+      {
+        "remote_path": "onnx/model.onnx",
+        "local_name": "model.onnx",
+        "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665"
+      },
+      {
+        "remote_path": "tokenizer.json",
+        "local_name": "tokenizer.json",
+        "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39"
+      }
+    ]
+  },
+  "retrieval": {
+    "store": "PostgreSQL+pgvector",
+    "table": "public.day6_chunks",
+    "metric": "cosine",
+    "search_type": "exact",
+    "top_k": 3,
+    "strategies": {
+      "A": "A vectors, no filter",
+      "B": "B vectors, no filter",
+      "C": "B vectors, supplied question filter only"
+    },
+    "tie_break": "cosine_distance ascending then chunk_id ascending"
+  },
+  "evaluation_policy": "benchmark/evidence_policy.json",
+  "reviewer": "Codex (AI-assisted evidence review, not independent human assessment)",
+  "reviewed_dev_metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 6,
+        "denominator": 15,
+        "value": 0.4
+      },
+      "evidence_hit_at_3": {
+        "numerator": 8,
+        "denominator": 15,
+        "value": 0.5333333333333333
+      },
+      "filter_compliance": {
+        "numerator": 3,
+        "denominator": 6,
+        "value": 0.5
+      },
+      "miss_question_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q07",
+        "q08",
+        "q09",
+        "q13"
+      ]
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 8,
+        "denominator": 15,
+        "value": 0.5333333333333333
+      },
+      "evidence_hit_at_3": {
+        "numerator": 10,
+        "denominator": 15,
+        "value": 0.6666666666666666
+      },
+      "filter_compliance": {
+        "numerator": 3,
+        "denominator": 6,
+        "value": 0.5
+      },
+      "miss_question_ids": [
+        "q01",
+        "q03",
+        "q07",
+        "q08",
+        "q13"
+      ]
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 9,
+        "denominator": 15,
+        "value": 0.6
+      },
+      "evidence_hit_at_3": {
+        "numerator": 10,
+        "denominator": 15,
+        "value": 0.6666666666666666
+      },
+      "filter_compliance": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "miss_question_ids": [
+        "q01",
+        "q03",
+        "q07",
+        "q08",
+        "q13"
+      ]
+    }
+  ],
+  "test_executed": false,
+  "test_rule": "Evaluate all strategies without tuning/reselection. Apply frozen evidence policy; disclose any post-retrieval adjudication separately.",
+  "file_sha256": {
+    "artifacts/chunking_config.json": "9c728fd7602df50d368fd80ff59257b6219b0f1aeb9767f99b97f1eafbed421a",
+    "artifacts/embedding_config.json": "063428d417b4a24e7a6579d552ec412a8d24f17fc4a68355fb5f84a8ffa5344f",
+    "benchmark/manifest.json": "dffb7e3996085b32f3d6a4ac22dea89cb96a433a736ec8c7e480edafde5cdd46",
+    "benchmark/questions.json": "405c5501bfc2d762298878c287ccb72dc67791dba9a064fb9ee4e72ffefcde8e",
+    "benchmark/evidence_policy.json": "a07f25e1d48ad4c20d0cbb9d53a72022cfecee0e884e35a204b91fe9a3b5c165",
+    "benchmark/dev_evidence_additions.json": "21d20df7def965b9c41ef6dccba947ada91f43b758d8d294b4929880958f33fe",
+    "data/manifest.json": "91528695d15eb5285aa67bb82c4d2e8f94d67cab785a5547b27860d01306f4c1",
+    "data/processed/esmap_pages.jsonl": "47e06a7d12a4a4b15468d486359015bfd35e8d014c0907a929c97d8be9d13335",
+    "starter/src/ingestion.py": "5a554737d667b7c551e38bced0aacf6010da61d86cbcd6c19597211fd771726b",
+    "starter/src/chunking.py": "7580c02f0b079754893b1c6bfe2cd76e9f93b8b6c43bfe72ce0cb00f0deba18c",
+    "starter/src/embeddings.py": "5b06acf0ae90e6bbd21052d4aae25321713d7e783467bc9e05a7451a9ad87571",
+    "starter/src/store.py": "9f493f3cfb69e07d048c4da9cce1413a252cbbb1bc269abdcec42fb442950db1",
+    "starter/src/evaluation.py": "72e25ea96afd6962d306dd26ba2e257b4c3b1d2edd09d5b30dda10b7689ce80e",
+    "starter/scripts/review_dev.py": "95b4a2adca3649aab7c3853c3aa9c91914bda599fa960e5131a77e4e6003393a",
+    "starter/requirements-lock.txt": "257585529a0b6b3a8f0057a143afdd1f01245316ee0528755dea3f201f5476d0",
+    "results/chunking/chunks_A.jsonl": "072a1dfa3372456fbfc6e559ab465fab5360746fab2e61fdece4c3f730231405",
+    "results/chunking/chunks_B.jsonl": "89c2d3329af1ec29e787ed2d34e55a058f642462b55b765d75ecfef0311e050f",
+    "results/embeddings/vectors_A.npz": "a15f7fc142654cdba3cb820b306aac4a1d6dbe5148be025f5bcaac2db4403466",
+    "results/embeddings/vectors_B.npz": "3ba8961f60c32c070e7c7f4232f6d640e7da5cec20bff0e4bd3ad190552f0805",
+    "results/dev/traces.jsonl": "4f17f4430a67a268dced6b54aeba7ec7d841cad45c82aa7338a1b634e73647fe",
+    "results/dev/summary.json": "aacdd09fdf6c6515029ffd6a04a1346ddb1443893e4ffb03cad28f3fcc344056",
+    "results/dev/review_decisions.json": "4c5a62ad1aae0b690663886517c692ef0f42fde45a26293fa55d90549c3149c4",
+    "results/dev/reviewed/traces.jsonl": "ecd7d98c2ab0e221334c20c44e04c5845f788df3207e26ee0e2c6cbaf9be6a21",
+    "results/dev/reviewed/summary.json": "cca844f4ede16bf93875700481fbe512ecbfe1ea1a6dbf7e991ab43aedb07691",
+    "results/dev/reviewed/selection.json": "3b55a7b1770b3ade24391cf79e732a2ec86f2bce4347ee2e9a4377473d3b1744",
+    "data/raw/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf": "e49c65cc3d0d0e234a81d9a4f7f5dbc397df3a997c7f772dd2771948ad924b29"
+  }
+}

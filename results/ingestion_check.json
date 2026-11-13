@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "selected_pages": 38,
+  "normalized_characters": 99118,
+  "pages_matching_frozen_corpus": 38,
+  "sample_page": 65,
+  "sample_section": "Renewable Energy",
+  "unicode_and_idempotence_checks": "pass",
+  "scope": "Read and normalize only; no chunks, embeddings or retrieval"
+}

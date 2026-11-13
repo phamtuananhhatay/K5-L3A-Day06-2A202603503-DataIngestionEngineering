@@ -1,0 +1,173 @@
+{
+  "status": "validated",
+  "reviewer": "Phạm Tuấn Anh",
+  "review_date_as_submitted": "13/11/2026",
+  "source_sha256": "fd0597799090cbf4325808f9a5ee6185e373d1a622e8963fb63a5b52f284bd55",
+  "trace_file": "results/test/traces.jsonl",
+  "trace_sha256": "5913513f7712d4cf55264b5ad9a2e4846dea7a37e3d49bbba3e534e5107a571a",
+  "question_strategy_reviews": 15,
+  "ranked_chunks_reviewed": 45,
+  "metrics": [
+    {
+      "strategy": "A",
+      "split": "test",
+      "questions": 5,
+      "hit_at_1": {
+        "numerator": 0,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 1,
+        "denominator": 5
+      }
+    },
+    {
+      "strategy": "B",
+      "split": "test",
+      "questions": 5,
+      "hit_at_1": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5
+      }
+    },
+    {
+      "strategy": "C",
+      "split": "test",
+      "questions": 5,
+      "hit_at_1": {
+        "numerator": 1,
+        "denominator": 5
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5
+      }
+    }
+  ],
+  "all_hit_labels_match_automatic_baseline": true,
+  "selected_strategy_unchanged": "C",
+  "retrieval_rerun": false,
+  "model_or_configuration_changed": false,
+  "scope": "Learner evidence sufficiency review only; no coherence/grounding scores or metadata audit inferred",
+  "per_question": [
+    {
+      "question_id": "q16",
+      "strategy": "A",
+      "enough_ranks": [
+        3
+      ],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 1
+    },
+    {
+      "question_id": "q16",
+      "strategy": "B",
+      "enough_ranks": [
+        2
+      ],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 1
+    },
+    {
+      "question_id": "q16",
+      "strategy": "C",
+      "enough_ranks": [
+        2
+      ],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 1
+    },
+    {
+      "question_id": "q17",
+      "strategy": "A",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q17",
+      "strategy": "B",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q17",
+      "strategy": "C",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q18",
+      "strategy": "A",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q18",
+      "strategy": "B",
+      "enough_ranks": [
+        1
+      ],
+      "hit_at_1": 1,
+      "evidence_hit_at_3": 1
+    },
+    {
+      "question_id": "q18",
+      "strategy": "C",
+      "enough_ranks": [
+        1
+      ],
+      "hit_at_1": 1,
+      "evidence_hit_at_3": 1
+    },
+    {
+      "question_id": "q19",
+      "strategy": "A",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q19",
+      "strategy": "B",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q19",
+      "strategy": "C",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q20",
+      "strategy": "A",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q20",
+      "strategy": "B",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    },
+    {
+      "question_id": "q20",
+      "strategy": "C",
+      "enough_ranks": [],
+      "hit_at_1": 0,
+      "evidence_hit_at_3": 0
+    }
+  ]
+}

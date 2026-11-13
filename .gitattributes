@@ -1,0 +1,11 @@
+# Preserve exact bytes of files referenced by the pre-test SHA-256 snapshot.
+* whitespace=cr-at-eol
+*.py -text
+*.json -text
+*.jsonl -text
+*.txt -text whitespace=-blank-at-eol,cr-at-eol
+*.npz binary
+
+# Reports and the CSV log are not snapshot inputs.
+*.md text eol=lf
+*.csv text eol=lf

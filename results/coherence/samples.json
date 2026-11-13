@@ -1,0 +1,537 @@
+{
+  "selection_rule": "first 10 selected physical pages, explicit main-prose anchor, covering chunk with smallest start_char",
+  "scores_exist": false,
+  "same_source_positions_for_all_strategies": true,
+  "samples": [
+    {
+      "sample_id": "01",
+      "page": 23,
+      "anchor": "Although the world",
+      "source_position": 15,
+      "chunks": {
+        "A": {
+          "chunk_id": "62fac5be36fdaf8f86c1a5f6ac25db03a71f870189dd4a04bef9cd7e5a192c7f",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 23,
+          "text": "15\nEnergy Data\nAlthough the world has made important gains toward\nSDG 7, efforts have been falling well short of the scale\nrequired to reach the SDG 7 targets (see Box 2.1) by 2030.\nThis has only been exacerbated by the COVID-19 crisis,\nwhich is having a serious effect on SDG 7 progress. At\nthe same time, the pandemic has pointed to the urgent\nneed for access to reliable, affordable, sustainable, and\nmodern energy—for hospitals and health facilities to treat\npatients, for schools to prepare chil",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3036,
+            "section": "Energy Data",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 500,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "33c5adbbfc1d0c3ac4e74e172b062ede4d6eb3cca0720ea3a525d8e2a68814f0",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 23,
+          "text": "15\nEnergy Data\nAlthough the world has made important gains toward\nSDG 7, efforts have been falling well short of the scale\nrequired to reach the SDG 7 targets (see Box 2.1) by 2030.\nThis has only been exacerbated by the COVID-19 crisis,\nwhich is having a serious effect on SDG 7 progress.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3036,
+            "section": "Energy Data",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 288,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "02",
+      "page": 24,
+      "anchor": "SDG 7 is one",
+      "source_position": 59,
+      "chunks": {
+        "A": {
+          "chunk_id": "170b658bb340b64f84d4b2baeaacba09d46e5bef5d5333c73b07b88c31f884ea",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 24,
+          "text": "16\nESMAP Annual Report 2021\nSUSTAINABLE DEVELOPMENT GOAL 7\nSDG 7 is one of the 17 Sustainable Development Goals established by the United\nNations General Assembly in 2015. It aims to “[e]nsure access to affordable,\nreliable, sustainable and modern energy for all.” The goal has five targets, to be\nachieved by 2030:\nTarget 7.1: Universal access to modern energy. This target has two indicators:\n• Indicator 7.1.1: Proportion of population with access to electricity.\n• Indicator 7.1.2: Proportion of",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3245,
+            "section": "Energy Data",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 499,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "b57b2ebce8e46b8127b82fed59044997409229c8291057b73c547773810f8f5a",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 24,
+          "text": "16\nESMAP Annual Report 2021\nSUSTAINABLE DEVELOPMENT GOAL 7\nSDG 7 is one of the 17 Sustainable Development Goals established by the United\nNations General Assembly in 2015. It aims to “[e]nsure access to affordable,\nreliable, sustainable and modern energy for all.” The goal has five targets, to be\nachieved by 2030:\nTarget 7.1: Universal access to modern energy.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3245,
+            "section": "Energy Data",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 362,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "03",
+      "page": 25,
+      "anchor": "RISE is the first",
+      "source_position": 488,
+      "chunks": {
+        "A": {
+          "chunk_id": "d6f0721f1e74cd64a3713149f4de092126281edd37d7cab773ad5fec6301d644",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 25,
+          "text": "17\nEnergy Data\nfor electricity access and “solid versus nonsolid fuels” for\ncooking, the framework provides more accurate data on\nthe actual services households received. The MTF is a\ncomplementary source for tracking SDG 7, helping inform\npolicy and investment decisions concerning access. Since\nits creation in 2015, the MTF has collected data from 21\ncountries. In FY2021, MTF country reports on Nigeria and\nLiberia were published.\nRegulatory Indicators for Sustainable Energy (RISE).\nRISE is the",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3749,
+            "section": "Energy Data",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 499,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "dc5d3674ef6ce19c0d7fba7ad17b2e24f800a01949ac7e6665bb174d700a2bee",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 25,
+          "text": "RISE is the first global scorecard that captures the policies\nand regulations in place to facilitate progress on SDG 7.\nRISE is published biannually and is available free on an\nonline data platform (rise.esmap.org) that enables users\nto customize the information they need on each country’s\npower sector and regulatory and policy framework.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3749,
+            "section": "Energy Data",
+            "report_year": 2021,
+            "start_char": 488,
+            "end_char": 828,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "04",
+      "page": 27,
+      "anchor": "The world must",
+      "source_position": 36,
+      "chunks": {
+        "A": {
+          "chunk_id": "9462a840e7f91713e7df842195aebe0c655cc55296a714b3d955e140feec7652",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 27,
+          "text": "19\nFoundations of Energy Transition\nThe world must use the opportunity today to move rapidly\nto a decarbonized energy sector taking advantage of\nthe plummeting cost of renewable sources of energy;\ntechnological advances in demand management, storage,\nand digitalization; and new decentralized business models\nfor service delivery. The energy transition will need to be\nbased on renewables and efficient technologies as the\nbreakdown of electricity generation by source (see Figure\n2.1) in a Paris Agr",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3397,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 500,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "3a6404f7a37c0e893a3dae3e42d1b25f21b4184a6919be551df512c4f7d107cc",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 27,
+          "text": "19\nFoundations of Energy Transition\nThe world must use the opportunity today to move rapidly\nto a decarbonized energy sector taking advantage of\nthe plummeting cost of renewable sources of energy;\ntechnological advances in demand management, storage,\nand digitalization; and new decentralized business models\nfor service delivery.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 3397,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 330,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "05",
+      "page": 28,
+      "anchor": "In Kenya, for example",
+      "source_position": 128,
+      "chunks": {
+        "A": {
+          "chunk_id": "a858fc76b68d8b8a92511943ab1272e434c68a846b42b90d39df320359ca5ec9",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 28,
+          "text": "20\nESMAP Annual Report 2021\nsuch technologies, the emergence of decentralized energy\nresources, and associated business models.\nIn Kenya, for example, which implemented an expansive\nelectrification project, as well as in Niger, the Utilities for\nEnergy Transition program provided support with studies\non electricity demand. The program leveraged utility data\nand piloted options for appliance finance and distribution\nto make demand-stimulating appliances affordable to\nconsumers, in collaboration w",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 2568,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 500,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "1cc9260f1eb5248c446729828c9ac7a85ab454414e25327b93bf4b3330e022b1",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 28,
+          "text": "20\nESMAP Annual Report 2021\nsuch technologies, the emergence of decentralized energy\nresources, and associated business models.\nIn Kenya, for example, which implemented an expansive\nelectrification project, as well as in Niger, the Utilities for\nEnergy Transition program provided support with studies\non electricity demand.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 2568,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 324,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "06",
+      "page": 29,
+      "anchor": "In FY2021, the MARCOT program",
+      "source_position": 163,
+      "chunks": {
+        "A": {
+          "chunk_id": "9543d9c032ac1ed981617d8cb0f7783ca35f9fbe36a98dc72ffecd63753f3b28",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 29,
+          "text": "21\nFoundations of Energy Transition\nfor implementing recommendations from the Bank’s\n2019 flagship report Rethinking Power Sector Reforms in the\nDeveloping World.\nIn FY2021, the MARCOT program allocated technical\nassistance grants to a total of 16 activities in all the regions\nthe World Bank serves (except EAP), focusing on strategic\nobjectives of increasing the number of countries with: (1)\nestablished or improved markets for energy services; (2)\ninterconnected grids and increased regional trad",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 2829,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 500,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "76ffa25cf3d659bb864a5d6932da3ac1faaf611ef81e997008e63140ec8d5e81",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 29,
+          "text": "In FY2021, the MARCOT program allocated technical\nassistance grants to a total of 16 activities in all the regions\nthe World Bank serves (except EAP), focusing on strategic\nobjectives of increasing the number of countries with: (1)\nestablished or improved markets for energy services; (2)\ninterconnected grids and increased regional trade; and (3)\nincreased financing from the public and private sources.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 2829,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 163,
+            "end_char": 567,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "07",
+      "page": 30,
+      "anchor": "In Sudan, the Energy",
+      "source_position": 61,
+      "chunks": {
+        "A": {
+          "chunk_id": "e6e7a1a2f2a3cf7fb1dd7c52aa2f92a48ea767b77703f8d1fa100319ddd85ad7",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 30,
+          "text": "22\nESMAP Annual Report 2021\nSUDAN\nELIMINATING FUEL SUBSIDIES\nIn Sudan, the Energy Sector Recovery Technical Assistance program, a $2 million multi-donor\nprogram, was established in 2019 to support the government with energy subsidy reform, clean energy\ntransition, and increasing access to energy. An ESMAP-funded policy paper prepared as a part of the\nprogram identified energy subsidies as a major driver of the local economic crisis and showed that\nsavings from successful reforms can deliver posi",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 1848,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 500,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "0df2b978a7e54c9512ed5ae57cc3d5f81458aff171b861b9722ddb1b07fbdd6b",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 30,
+          "text": "22\nESMAP Annual Report 2021\nSUDAN\nELIMINATING FUEL SUBSIDIES\nIn Sudan, the Energy Sector Recovery Technical Assistance program, a $2 million multi-donor\nprogram, was established in 2019 to support the government with energy subsidy reform, clean energy\ntransition, and increasing access to energy.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 1848,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 297,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "08",
+      "page": 31,
+      "anchor": "The outcomes achieved",
+      "source_position": 36,
+      "chunks": {
+        "A": {
+          "chunk_id": "a69d725ba4e4f6674936f3cf80ddfca13b037daac2c1ec6a1505db3f42c80f29",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 31,
+          "text": "23\nFoundations of Energy Transition\nThe outcomes achieved under the country grants were\ncomplemented by the facility’s own knowledge work. In\nDecember 2020, ESRF hosted its first virtual knowledge\nforum for World Bank staff. The forum included a\ncomprehensive debate on the challenges of energy\nsubsidy reforms during and after the pandemic, as well\nas knowledge exchange among diverse stakeholders,\nincluding subject experts and government representatives.\nSUPPORTING COAL REGIONS IN\nTRANSITION\nCoal",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 4325,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 500,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "31d04206460cc712852715ff0e58953e0af1450ac71712195945d0fbc6f51625",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 31,
+          "text": "23\nFoundations of Energy Transition\nThe outcomes achieved under the country grants were\ncomplemented by the facility’s own knowledge work. In\nDecember 2020, ESRF hosted its first virtual knowledge\nforum for World Bank staff. The forum included a\ncomprehensive debate on the challenges of energy\nsubsidy reforms during and after the pandemic, as well\nas knowledge exchange among diverse stakeholders,\nincluding subject experts and government representatives.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 4325,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 457,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "09",
+      "page": 32,
+      "anchor": "ESMAP has built",
+      "source_position": 50,
+      "chunks": {
+        "A": {
+          "chunk_id": "f9b489a1cba8e5606ffa8b2772a4f6011033a958b10a7a231aef19270b0725c3",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 32,
+          "text": "24\nESMAP Annual Report 2021\nGENDER\nFOCUS IN\nESMAP\nESMAP has built considerable momentum for closing gender gaps through\nits global Gender and Energy program and its six regional gender programs.\nThese have helped strengthen women’s roles as consumers, employees, and\nentrepreneurs in the energy sector. Aligned with the World Bank Group Gender\nStrategy and lessons learned during its implementation, ESMAP works with\ncountries to design interventions and generate crucial knowledge of actions\nneeded",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 1889,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 499,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "9740cca72164b27a43bebcfd3bb0380b7256f62b5e532ae2f12ac2e5bc4750e4",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 32,
+          "text": "24\nESMAP Annual Report 2021\nGENDER\nFOCUS IN\nESMAP\nESMAP has built considerable momentum for closing gender gaps through\nits global Gender and Energy program and its six regional gender programs.\nThese have helped strengthen women’s roles as consumers, employees, and\nentrepreneurs in the energy sector.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 1889,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 302,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    },
+    {
+      "sample_id": "10",
+      "page": 33,
+      "anchor": "In collaboration with the Gender team",
+      "source_position": 77,
+      "chunks": {
+        "A": {
+          "chunk_id": "6e2183726cc39c72982dca366d461380dc76dd14ecf50c2032e5f6a747f74db1",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 33,
+          "text": "25\nFoundations of Energy Transition\nGETTING TO GENDER\nEQUALITY IN\nHYDROPOWER\nIn collaboration with the Gender team,\nESMAP’s Hydropower Development Facility\nis developing a gender and hydropower global\nbaseline and a report on women’s employment\nin hydropower—including a survey launched\nin the beginning of FY2022. This report will\nprovide tools and evidence for practitioners\nto close employment gender gaps in the\nhydropower sector.\nWEST AFRICA: CAPACITY\nBUILDING FOR WOMEN\nENTREPRENEURS IN\nTHE OFF",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 1980,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 500,
+            "chunking": {
+              "method": "fixed_size",
+              "version": 1,
+              "size": 500,
+              "overlap": 50
+            }
+          }
+        },
+        "B": {
+          "chunk_id": "df278f7e626be44963091d46557d93f51dba2d4174a12f0e91c9c3512744f2f3",
+          "document_id": "esmap-annual-report-2021",
+          "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+          "page": 33,
+          "text": "25\nFoundations of Energy Transition\nGETTING TO GENDER\nEQUALITY IN\nHYDROPOWER\nIn collaboration with the Gender team,\nESMAP’s Hydropower Development Facility\nis developing a gender and hydropower global\nbaseline and a report on women’s employment\nin hydropower—including a survey launched\nin the beginning of FY2022. This report will\nprovide tools and evidence for practitioners\nto close employment gender gaps in the\nhydropower sector.",
+          "metadata": {
+            "extraction_status": "ok",
+            "normalized_characters": 1980,
+            "section": "Foundations of Energy Transition",
+            "report_year": 2021,
+            "start_char": 0,
+            "end_char": 434,
+            "chunking": {
+              "method": "by_paragraph",
+              "version": 1,
+              "max_size": 500,
+              "overlap": 0,
+              "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+            }
+          }
+        }
+      },
+      "score_status": "awaiting learner",
+      "C_uses": "same chunk as B"
+    }
+  ]
+}

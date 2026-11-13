@@ -1,0 +1,57 @@
+# Dev sau rà soát evidence bằng Codex
+
+Không phải chấm độc lập của con người; không có nhãn grounding/coherence thủ công.
+
+| Strategy | Hit@1 | Evidence Hit@3 |
+|---|---|---|
+| A | 6/15 | 8/15 |
+| B | 8/15 | 10/15 |
+| C | 9/15 | 10/15 |
+
+| Câu | Strategy | Hit ranks sau review | Thay đổi Hit@1 / Hit@3 | Lý do |
+|---|---|---|---|---|
+| q01 | A | [] | 0→0 / 0→0 | Không chunk nào trong top-3 mô tả đủ hai hồ khác cao độ, nước chảy xuống và turbine. Trang 65 được lấy ở A/C chỉ là đoạn dự án/technical assistance; không lấy đúng đoạn cơ chế. |
+| q01 | B | [] | 0→0 / 0→0 | Không chunk nào trong top-3 mô tả đủ hai hồ khác cao độ, nước chảy xuống và turbine. Trang 65 được lấy ở A/C chỉ là đoạn dự án/technical assistance; không lấy đúng đoạn cơ chế. |
+| q01 | C | [] | 0→0 / 0→0 | Không chunk nào trong top-3 mô tả đủ hai hồ khác cao độ, nước chảy xuống và turbine. Trang 65 được lấy ở A/C chỉ là đoạn dự án/technical assistance; không lấy đúng đoạn cơ chế. |
+| q02 | A | [] | 0→0 / 0→0 | B/C hạng 1 chứa đầy đủ hai chỉ số 7.1.1 và 7.1.2, chấp nhận evidence ngắn hơn. A hạng 2 bị cắt mất nội dung đầy đủ của chỉ số thứ nhất; hạng 1 nói về custodian/electrification, không chứa đủ hai chỉ số trong cùng chunk. |
+| q02 | B | [1] | 0→1 / 0→1 | B/C hạng 1 chứa đầy đủ hai chỉ số 7.1.1 và 7.1.2, chấp nhận evidence ngắn hơn. A hạng 2 bị cắt mất nội dung đầy đủ của chỉ số thứ nhất; hạng 1 nói về custodian/electrification, không chứa đủ hai chỉ số trong cùng chunk. |
+| q02 | C | [1] | 0→1 / 0→1 | B/C hạng 1 chứa đầy đủ hai chỉ số 7.1.1 và 7.1.2, chấp nhận evidence ngắn hơn. A hạng 2 bị cắt mất nội dung đầy đủ của chỉ số thứ nhất; hạng 1 nói về custodian/electrification, không chứa đủ hai chỉ số trong cùng chunk. |
+| q03 | A | [] | 0→0 / 0→0 | Không chunk được lấy nào có đủ 21 quốc gia cùng Nigeria và Liberia công bố FY2021. Các số liệu về Hub/mini-grid/chương trình khác không thay thế được. |
+| q03 | B | [] | 0→0 / 0→0 | Không chunk được lấy nào có đủ 21 quốc gia cùng Nigeria và Liberia công bố FY2021. Các số liệu về Hub/mini-grid/chương trình khác không thay thế được. |
+| q03 | C | [] | 0→0 / 0→0 | Không chunk được lấy nào có đủ 21 quốc gia cùng Nigeria và Liberia công bố FY2021. Các số liệu về Hub/mini-grid/chương trình khác không thay thế được. |
+| q04 | A | [1] | 1→1 / 1→1 | Các rank chấp nhận đều nêu rõ MARCOT, FY2021, 16 hoạt động và ngoại lệ EAP. Các rank khác không chứa cả số hoạt động lẫn ngoại lệ, hoặc thuộc chương trình khác/boilerplate. |
+| q04 | B | [2] | 0→0 / 1→1 | Các rank chấp nhận đều nêu rõ MARCOT, FY2021, 16 hoạt động và ngoại lệ EAP. Các rank khác không chứa cả số hoạt động lẫn ngoại lệ, hoặc thuộc chương trình khác/boilerplate. |
+| q04 | C | [1] | 1→1 / 1→1 | Các rank chấp nhận đều nêu rõ MARCOT, FY2021, 16 hoạt động và ngoại lệ EAP. Các rank khác không chứa cả số hoạt động lẫn ngoại lệ, hoặc thuộc chương trình khác/boilerplate. |
+| q05 | A | [1] | 1→1 / 1→1 | Hạng 1 cả ba có đầy đủ Sudan, xăng/diesel, tháng 10/2020 và kết thúc tháng 6/2021. Các chunk còn lại không đủ hai mốc cải cách cho đúng hai loại sản phẩm. |
+| q05 | B | [1] | 1→1 / 1→1 | Hạng 1 cả ba có đầy đủ Sudan, xăng/diesel, tháng 10/2020 và kết thúc tháng 6/2021. Các chunk còn lại không đủ hai mốc cải cách cho đúng hai loại sản phẩm. |
+| q05 | C | [1] | 1→1 / 1→1 | Hạng 1 cả ba có đầy đủ Sudan, xăng/diesel, tháng 10/2020 và kết thúc tháng 6/2021. Các chunk còn lại không đủ hai mốc cải cách cho đúng hai loại sản phẩm. |
+| q06 | A | [1] | 1→1 / 1→1 | Hạng 1 giữ đủ workforce participation, productivity/livelihoods và access to modern services. Các rank khác nói tổng quan vai trò phụ nữ/gender tag hoặc một hoạt động, không đủ ba khía cạnh được hỏi. |
+| q06 | B | [1] | 1→1 / 1→1 | Hạng 1 giữ đủ workforce participation, productivity/livelihoods và access to modern services. Các rank khác nói tổng quan vai trò phụ nữ/gender tag hoặc một hoạt động, không đủ ba khía cạnh được hỏi. |
+| q06 | C | [1] | 1→1 / 1→1 | Hạng 1 giữ đủ workforce participation, productivity/livelihoods và access to modern services. Các rank khác nói tổng quan vai trò phụ nữ/gender tag hoặc một hoạt động, không đủ ba khía cạnh được hỏi. |
+| q07 | A | [] | 0→0 / 0→0 | A có các phần của ba rào cản nhưng tách qua hai chunk, không ghép để tính hit. B/C lấy đoạn khoản tài trợ, kết quả dự kiến và header thay vì đoạn liệt kê rào cản; không đủ ba ý trong một chunk. |
+| q07 | B | [] | 0→0 / 0→0 | A có các phần của ba rào cản nhưng tách qua hai chunk, không ghép để tính hit. B/C lấy đoạn khoản tài trợ, kết quả dự kiến và header thay vì đoạn liệt kê rào cản; không đủ ba ý trong một chunk. |
+| q07 | C | [] | 0→0 / 0→0 | A có các phần của ba rào cản nhưng tách qua hai chunk, không ghép để tính hit. B/C lấy đoạn khoản tài trợ, kết quả dự kiến và header thay vì đoạn liệt kê rào cản; không đủ ba ý trong một chunk. |
+| q08 | A | [] | 0→0 / 0→0 | Đoạn trang 40 được trả về nói lợi ích/GDU program, không có định nghĩa dùng nhiệt trực tiếp thay vì đổi thành điện và không qua môi chất trung gian. Các rank khác không cung cấp định nghĩa tương đương. |
+| q08 | B | [] | 0→0 / 0→0 | Đoạn trang 40 được trả về nói lợi ích/GDU program, không có định nghĩa dùng nhiệt trực tiếp thay vì đổi thành điện và không qua môi chất trung gian. Các rank khác không cung cấp định nghĩa tương đương. |
+| q08 | C | [] | 0→0 / 0→0 | Đoạn trang 40 được trả về nói lợi ích/GDU program, không có định nghĩa dùng nhiệt trực tiếp thay vì đổi thành điện và không qua môi chất trung gian. Các rank khác không cung cấp định nghĩa tương đương. |
+| q09 | A | [] | 0→0 / 0→0 | B/C hạng 2 có 90–323 USD/năm, điều kiện 40% hộ đủ điều kiện và tối đa 850.000 tấn CO2/năm. A không lấy đoạn Mexico này. Các rank khác thuộc clean cooking/off-grid/header, không có đủ số liệu và điều kiện. |
+| q09 | B | [2] | 0→0 / 1→1 | B/C hạng 2 có 90–323 USD/năm, điều kiện 40% hộ đủ điều kiện và tối đa 850.000 tấn CO2/năm. A không lấy đoạn Mexico này. Các rank khác thuộc clean cooking/off-grid/header, không có đủ số liệu và điều kiện. |
+| q09 | C | [2] | 0→0 / 1→1 | B/C hạng 2 có 90–323 USD/năm, điều kiện 40% hộ đủ điều kiện và tối đa 850.000 tấn CO2/năm. A không lấy đoạn Mexico này. Các rank khác thuộc clean cooking/off-grid/header, không có đủ số liệu và điều kiện. |
+| q10 | A | [3] | 0→0 / 1→1 | Các rank chấp nhận chứa đủ sáu chủ đề module và thời điểm dự kiến đầu 2022. Các rank còn lại nói báo cáo/benefits/cooperation, không đủ chủ đề và thời gian. Giữ tính dự kiến, không coi đã ra mắt. |
+| q10 | B | [1] | 1→1 / 1→1 | Các rank chấp nhận chứa đủ sáu chủ đề module và thời điểm dự kiến đầu 2022. Các rank còn lại nói báo cáo/benefits/cooperation, không đủ chủ đề và thời gian. Giữ tính dự kiến, không coi đã ra mắt. |
+| q10 | C | [1] | 1→1 / 1→1 | Các rank chấp nhận chứa đủ sáu chủ đề module và thời điểm dự kiến đầu 2022. Các rank còn lại nói báo cáo/benefits/cooperation, không đủ chủ đề và thời gian. Giữ tính dự kiến, không coi đã ra mắt. |
+| q11 | A | [2] | 0→0 / 1→1 | Các rank chấp nhận liên kết mức trợ cấp RBF với nhóm kinh tế-xã hội hộ và performance tiers. Các rank khác nói benefits/fund hoặc tổng quan Rwanda, không đủ cả hai yếu tố. |
+| q11 | B | [1] | 1→1 / 1→1 | Các rank chấp nhận liên kết mức trợ cấp RBF với nhóm kinh tế-xã hội hộ và performance tiers. Các rank khác nói benefits/fund hoặc tổng quan Rwanda, không đủ cả hai yếu tố. |
+| q11 | C | [1] | 1→1 / 1→1 | Các rank chấp nhận liên kết mức trợ cấp RBF với nhóm kinh tế-xã hội hộ và performance tiers. Các rank khác nói benefits/fund hoặc tổng quan Rwanda, không đủ cả hai yếu tố. |
+| q12 | A | [1] | 1→1 / 1→1 | Hạng 1 cả ba đủ GEP, 216 kịch bản, mốc trung gian 2025 và đầy đủ 2030. Các rank khác chỉ nói chương trình/SDG/clean cooking, thiếu số kịch bản và hai mốc tương ứng. |
+| q12 | B | [1] | 1→1 / 1→1 | Hạng 1 cả ba đủ GEP, 216 kịch bản, mốc trung gian 2025 và đầy đủ 2030. Các rank khác chỉ nói chương trình/SDG/clean cooking, thiếu số kịch bản và hai mốc tương ứng. |
+| q12 | C | [1] | 1→1 / 1→1 | Hạng 1 cả ba đủ GEP, 216 kịch bản, mốc trung gian 2025 và đầy đủ 2030. Các rank khác chỉ nói chương trình/SDG/clean cooking, thiếu số kịch bản và hai mốc tương ứng. |
+| q13 | A | [] | 0→0 / 0→0 | Không chunk được lấy nào nêu đủ ba nguồn lực knowledge, technical expertise, funding của End User Subsidy Lab. ESRF, Data Hub, testbed hoặc coalition không phải bằng chứng tương đương cho Lab. |
+| q13 | B | [] | 0→0 / 0→0 | Không chunk được lấy nào nêu đủ ba nguồn lực knowledge, technical expertise, funding của End User Subsidy Lab. ESRF, Data Hub, testbed hoặc coalition không phải bằng chứng tương đương cho Lab. |
+| q13 | C | [] | 0→0 / 0→0 | Không chunk được lấy nào nêu đủ ba nguồn lực knowledge, technical expertise, funding của End User Subsidy Lab. ESRF, Data Hub, testbed hoặc coalition không phải bằng chứng tương đương cho Lab. |
+| q14 | A | [1] | 1→1 / 1→1 | Hạng 1 cả ba nêu rõ Haiti/ILHC, 5 bệnh viện với solar PV + battery và 5 hệ thống nước với solar pumps. Các rank khác không có đủ số lượng và loại hạ tầng được hỏi. |
+| q14 | B | [1] | 1→1 / 1→1 | Hạng 1 cả ba nêu rõ Haiti/ILHC, 5 bệnh viện với solar PV + battery và 5 hệ thống nước với solar pumps. Các rank khác không có đủ số lượng và loại hạ tầng được hỏi. |
+| q14 | C | [1] | 1→1 / 1→1 | Hạng 1 cả ba nêu rõ Haiti/ILHC, 5 bệnh viện với solar PV + battery và 5 hệ thống nước với solar pumps. Các rank khác không có đủ số lượng và loại hạ tầng được hỏi. |
+| q15 | A | [1] | 0→1 / 0→1 | A hạng 1 có đầy đủ thông tin cần trả lời dù thiếu đầu câu Economic analysis; chấp nhận evidence ngắn hơn. B/C hạng 1 có quote đầy đủ. Rank khác chỉ nói 25 công trình hoặc chủ đề khác, không đủ số tiền, thời hạn và hoàn vốn. |
+| q15 | B | [1] | 1→1 / 1→1 | A hạng 1 có đầy đủ thông tin cần trả lời dù thiếu đầu câu Economic analysis; chấp nhận evidence ngắn hơn. B/C hạng 1 có quote đầy đủ. Rank khác chỉ nói 25 công trình hoặc chủ đề khác, không đủ số tiền, thời hạn và hoàn vốn. |
+| q15 | C | [1] | 1→1 / 1→1 | A hạng 1 có đầy đủ thông tin cần trả lời dù thiếu đầu câu Economic analysis; chấp nhận evidence ngắn hơn. B/C hạng 1 có quote đầy đủ. Rank khác chỉ nói 25 công trình hoặc chủ đề khác, không đủ số tiền, thời hạn và hoàn vốn. |

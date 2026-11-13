@@ -1,0 +1,66 @@
+{
+  "version": "esmap-benchmark-v1",
+  "prepared_at": "2026-11-13",
+  "status": "fixed_before_retrieval_experiments",
+  "questions_file": "benchmark/questions.json",
+  "questions_sha256": "405c5501bfc2d762298878c287ccb72dc67791dba9a064fb9ee4e72ffefcde8e",
+  "corpus_file": "data/processed/esmap_pages.jsonl",
+  "corpus_sha256": "47e06a7d12a4a4b15468d486359015bfd35e8d014c0907a929c97d8be9d13335",
+  "source_pdf_sha256": "e49c65cc3d0d0e234a81d9a4f7f5dbc397df3a997c7f772dd2771948ad924b29",
+  "splits": {
+    "dev": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15"
+    ],
+    "test": [
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20"
+    ]
+  },
+  "retrieval_inputs": [
+    "question",
+    "filter"
+  ],
+  "evaluation_only_fields": [
+    "expected_answer",
+    "gold_source_id",
+    "gold_page",
+    "evidence_quote",
+    "alternative_gold_evidence",
+    "verification_note"
+  ],
+  "selection_rule": {
+    "dataset": "dev only",
+    "primary": "Evidence Hit@3 (descending)",
+    "tie_breakers": [
+      "Hit@1 (descending)",
+      "Measured ingest time (ascending)",
+      "Measured paid-service cost (ascending)",
+      "Strategy ID A then B then C if all preceding values tie"
+    ],
+    "test_usage": "Evaluate all three strategies after configurations are fixed; do not tune or reselect using test"
+  },
+  "split_rationale": "20 distinct gold pages; no dev/test gold-page overlap. Disjoint topics where practical, but shared report and related sections remain.",
+  "limitations": [
+    "Small test set (5), one report, cross-lingual Vietnamese queries/English evidence.",
+    "Authoring assisted by Codex, evidence and answer review not independent; learner should review before retrieval runs.",
+    "Exact-evidence alternatives scanned across corpus; semantically equivalent alternatives may still exist. Record and accept verified equivalent evidence consistently across all strategies."
+  ],
+  "retrieval_executed": false
+}

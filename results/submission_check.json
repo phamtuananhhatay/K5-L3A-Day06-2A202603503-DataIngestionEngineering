@@ -1,0 +1,29 @@
+{
+  "status": "pass",
+  "student": {
+    "name": "Phạm Tuấn Anh",
+    "id": "2A202603503",
+    "class": "L3A"
+  },
+  "required_files_present": true,
+  "experiment_log_matches_metrics": true,
+  "dev_traces": 45,
+  "test_traces": 15,
+  "ranked_chunks": 180,
+  "coherence_labels": 30,
+  "metadata_records": 45,
+  "grounding_labels": 15,
+  "relative_links_checked": true,
+  "secret_pattern_findings": [],
+  "git_candidate_files_scanned": 135,
+  "secret_scan_limit": "Pattern scan of Git candidate text files, not a guarantee of absence of all sensitive content",
+  "frozen_files_checked": 26,
+  "frozen_files_changed": [],
+  "external_steps_pending": [
+    "Commit completed work",
+    "Push to origin",
+    "Verify grader access",
+    "Submit repository link on class channel"
+  ],
+  "errors": []
+}

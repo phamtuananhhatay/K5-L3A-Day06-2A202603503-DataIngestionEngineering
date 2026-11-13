@@ -1,0 +1,822 @@
+[
+  {
+    "page": 1,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 178,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Cover or title page"
+  },
+  {
+    "page": 2,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 3619,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "About, copyright and permissions; kept as provenance, not corpus"
+  },
+  {
+    "page": 3,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 62,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Cover or title page"
+  },
+  {
+    "page": 4,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 1027,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Table of contents"
+  },
+  {
+    "page": 5,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 336,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Table of contents"
+  },
+  {
+    "page": 6,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 2385,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Abbreviations; excluded conservatively from the selected corpus"
+  },
+  {
+    "page": 7,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 15,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Donor logos, little extractable text"
+  },
+  {
+    "page": 8,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 62,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 9,
+    "printed_page": "1",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2668,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 10,
+    "printed_page": "2",
+    "included": false,
+    "section": null,
+    "normalized_characters": 4341,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 11,
+    "printed_page": "3",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2709,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 12,
+    "printed_page": "4",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1366,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 13,
+    "printed_page": "5",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1100,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 14,
+    "printed_page": "6",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2854,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 15,
+    "printed_page": "7",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2182,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 16,
+    "printed_page": "8",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1862,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 17,
+    "printed_page": "9",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1793,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 18,
+    "printed_page": "10",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2034,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 19,
+    "printed_page": "11",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1044,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 20,
+    "printed_page": "12",
+    "included": false,
+    "section": null,
+    "normalized_characters": 60,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 21,
+    "printed_page": "13",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1401,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 22,
+    "printed_page": "14",
+    "included": false,
+    "section": null,
+    "normalized_characters": 364,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 23,
+    "printed_page": "15",
+    "included": true,
+    "section": "Energy Data",
+    "normalized_characters": 3036,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 24,
+    "printed_page": "16",
+    "included": true,
+    "section": "Energy Data",
+    "normalized_characters": 3245,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 25,
+    "printed_page": "17",
+    "included": true,
+    "section": "Energy Data",
+    "normalized_characters": 3749,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 26,
+    "printed_page": "18",
+    "included": false,
+    "section": null,
+    "normalized_characters": 274,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 27,
+    "printed_page": "19",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 3397,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 28,
+    "printed_page": "20",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 2568,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 29,
+    "printed_page": "21",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 2829,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 30,
+    "printed_page": "22",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 1848,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 31,
+    "printed_page": "23",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 4325,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 32,
+    "printed_page": "24",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 1889,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 33,
+    "printed_page": "25",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 1980,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 34,
+    "printed_page": "26",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 2238,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 35,
+    "printed_page": "27",
+    "included": true,
+    "section": "Foundations of Energy Transition",
+    "normalized_characters": 2424,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 36,
+    "printed_page": "28",
+    "included": false,
+    "section": null,
+    "normalized_characters": 413,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 37,
+    "printed_page": "29",
+    "included": true,
+    "section": "Accelerating Decarbonization",
+    "normalized_characters": 4095,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 38,
+    "printed_page": "30",
+    "included": true,
+    "section": "Accelerating Decarbonization",
+    "normalized_characters": 976,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 39,
+    "printed_page": "31",
+    "included": true,
+    "section": "Accelerating Decarbonization",
+    "normalized_characters": 3402,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 40,
+    "printed_page": "32",
+    "included": true,
+    "section": "Accelerating Decarbonization",
+    "normalized_characters": 2078,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 41,
+    "printed_page": "33",
+    "included": true,
+    "section": "Accelerating Decarbonization",
+    "normalized_characters": 3399,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 42,
+    "printed_page": "34",
+    "included": true,
+    "section": "Accelerating Decarbonization",
+    "normalized_characters": 2184,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 43,
+    "printed_page": "35",
+    "included": true,
+    "section": "Accelerating Decarbonization",
+    "normalized_characters": 708,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 44,
+    "printed_page": "36",
+    "included": false,
+    "section": null,
+    "normalized_characters": 275,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 45,
+    "printed_page": "37",
+    "included": true,
+    "section": "Clean Cooking",
+    "normalized_characters": 3049,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 46,
+    "printed_page": "38",
+    "included": true,
+    "section": "Clean Cooking",
+    "normalized_characters": 1588,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 47,
+    "printed_page": "39",
+    "included": true,
+    "section": "Clean Cooking",
+    "normalized_characters": 3323,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 48,
+    "printed_page": "40",
+    "included": false,
+    "section": null,
+    "normalized_characters": 353,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 49,
+    "printed_page": "41",
+    "included": true,
+    "section": "Electricity Access",
+    "normalized_characters": 3889,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 50,
+    "printed_page": "42",
+    "included": true,
+    "section": "Electricity Access",
+    "normalized_characters": 3685,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 51,
+    "printed_page": "43",
+    "included": true,
+    "section": "Electricity Access",
+    "normalized_characters": 2021,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 52,
+    "printed_page": "44",
+    "included": true,
+    "section": "Electricity Access",
+    "normalized_characters": 3064,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 53,
+    "printed_page": "45",
+    "included": true,
+    "section": "Electricity Access",
+    "normalized_characters": 3700,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 54,
+    "printed_page": "46",
+    "included": true,
+    "section": "Electricity Access",
+    "normalized_characters": 1184,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 55,
+    "printed_page": "47",
+    "included": true,
+    "section": "Electricity Access",
+    "normalized_characters": 2351,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 56,
+    "printed_page": "48",
+    "included": false,
+    "section": null,
+    "normalized_characters": 290,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 57,
+    "printed_page": "49",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 3006,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 58,
+    "printed_page": "50",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 3377,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 59,
+    "printed_page": "51",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 3339,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 60,
+    "printed_page": "52",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 2860,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 61,
+    "printed_page": "53",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 1670,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 62,
+    "printed_page": "54",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 607,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 63,
+    "printed_page": "55",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 1143,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 64,
+    "printed_page": "56",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 3965,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 65,
+    "printed_page": "57",
+    "included": true,
+    "section": "Renewable Energy",
+    "normalized_characters": 927,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Substantive text in selected energy topic"
+  },
+  {
+    "page": 66,
+    "printed_page": "58",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1940,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 67,
+    "printed_page": "59",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1809,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 68,
+    "printed_page": "60",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1636,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 69,
+    "printed_page": "61",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1316,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 70,
+    "printed_page": "62",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2116,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 71,
+    "printed_page": "63",
+    "included": false,
+    "section": null,
+    "normalized_characters": 837,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 72,
+    "printed_page": "64",
+    "included": false,
+    "section": null,
+    "normalized_characters": 94,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 73,
+    "printed_page": "65",
+    "included": false,
+    "section": null,
+    "normalized_characters": 4046,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 74,
+    "printed_page": "66",
+    "included": false,
+    "section": null,
+    "normalized_characters": 95,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Photo and credit only"
+  },
+  {
+    "page": 75,
+    "printed_page": "67",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2529,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 76,
+    "printed_page": "68",
+    "included": false,
+    "section": null,
+    "normalized_characters": 55,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Section opener, mostly image/title; excluded conservatively"
+  },
+  {
+    "page": 77,
+    "printed_page": "69",
+    "included": false,
+    "section": null,
+    "normalized_characters": 2214,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 78,
+    "printed_page": "70",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1222,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 79,
+    "printed_page": "71",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1098,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 80,
+    "printed_page": "72",
+    "included": false,
+    "section": null,
+    "normalized_characters": 565,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 81,
+    "printed_page": "73",
+    "included": false,
+    "section": null,
+    "normalized_characters": 1007,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "Outside selected scope: overview, partnerships, trust funds or financial review"
+  },
+  {
+    "page": 82,
+    "printed_page": null,
+    "included": false,
+    "section": null,
+    "normalized_characters": 0,
+    "replacement_characters": 0,
+    "extraction_error": null,
+    "reason": "No extractable text; final page excluded"
+  }
+]

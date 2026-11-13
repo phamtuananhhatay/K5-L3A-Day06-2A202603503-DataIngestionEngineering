@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "traces": 15,
+  "ranked_chunks": 45,
+  "test_ids": [
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20"
+  ],
+  "metrics_match_traces": true,
+  "A_B_no_filter_C_supplied_filter": true,
+  "selected_strategy_unchanged": "C",
+  "overwrite_guard_checked": true
+}

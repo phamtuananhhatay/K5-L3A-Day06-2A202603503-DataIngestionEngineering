@@ -1,0 +1,191 @@
+{
+  "question": "Báo cáo mô tả các giải pháp lưu trữ năng lượng như thế nào?",
+  "strategy": "C",
+  "filter": {
+    "section": "Renewable Energy"
+  },
+  "model_name": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "search_type": "exact_cosine",
+  "top_k": 3,
+  "returned_count": 3,
+  "hits": [
+    {
+      "rank": 1,
+      "strategy": "C",
+      "stored_strategy": "B",
+      "chunk_id": "23b93a558244589d2b4944db9a2d5e8e0321d05fb987b49c4639988b665a23af",
+      "document_id": "esmap-annual-report-2021",
+      "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+      "page": 59,
+      "text": "It was critical in informing the design of the World\nBank’s project on accelerating renewable integration and sustainable energy, with a total of 50 MWh\nbattery storage capacity integrated into the project design.\nBOX 2.16",
+      "metadata": {
+        "section": "Renewable Energy",
+        "chunking": {
+          "method": "by_paragraph",
+          "overlap": 0,
+          "version": 1,
+          "max_size": 500,
+          "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+        },
+        "end_char": 3339,
+        "start_char": 3117,
+        "report_year": 2021,
+        "embedding_model": {
+          "files": [
+            {
+              "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+              "local_name": "model.onnx",
+              "remote_path": "onnx/model.onnx"
+            },
+            {
+              "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+              "local_name": "tokenizer.json",
+              "remote_path": "tokenizer.json"
+            }
+          ],
+          "backend": "onnxruntime",
+          "license": "MIT (model repository metadata)",
+          "pooling": "attention_mask_mean",
+          "variant": "onnx/model.onnx (FP32, no quantization)",
+          "provider": "local",
+          "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+          "batch_size": 8,
+          "dimensions": 384,
+          "max_tokens": 512,
+          "model_name": "intfloat/multilingual-e5-small",
+          "cpu_threads": 4,
+          "query_prefix": "query: ",
+          "normalization": "L2",
+          "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+          "document_prefix": "passage: ",
+          "local_directory": "models/multilingual-e5-small",
+          "overflow_policy": "raise; do not silently truncate"
+        },
+        "extraction_status": "ok",
+        "normalized_characters": 3339
+      },
+      "cosine_distance": 0.20775740215993221,
+      "score": 0.7922425978400678,
+      "score_type": "cosine_similarity"
+    },
+    {
+      "rank": 2,
+      "strategy": "C",
+      "stored_strategy": "B",
+      "chunk_id": "f3f57e610ffea3b5e559df23381d018a6da1b8feb623f13dc191c8d21cfdd456",
+      "document_id": "esmap-annual-report-2021",
+      "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+      "page": 57,
+      "text": "battery storage, rooftop and floating solar, and offshore\nwind; and (3) build a pipeline of sustainable hydropower\nprojects in recognition of their role in power grids for\nsystem balancing, flood control, and irrigation.",
+      "metadata": {
+        "section": "Renewable Energy",
+        "chunking": {
+          "method": "by_paragraph",
+          "overlap": 0,
+          "version": 1,
+          "max_size": 500,
+          "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+        },
+        "end_char": 1765,
+        "start_char": 1545,
+        "report_year": 2021,
+        "embedding_model": {
+          "files": [
+            {
+              "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+              "local_name": "model.onnx",
+              "remote_path": "onnx/model.onnx"
+            },
+            {
+              "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+              "local_name": "tokenizer.json",
+              "remote_path": "tokenizer.json"
+            }
+          ],
+          "backend": "onnxruntime",
+          "license": "MIT (model repository metadata)",
+          "pooling": "attention_mask_mean",
+          "variant": "onnx/model.onnx (FP32, no quantization)",
+          "provider": "local",
+          "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+          "batch_size": 8,
+          "dimensions": 384,
+          "max_tokens": 512,
+          "model_name": "intfloat/multilingual-e5-small",
+          "cpu_threads": 4,
+          "query_prefix": "query: ",
+          "normalization": "L2",
+          "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+          "document_prefix": "passage: ",
+          "local_directory": "models/multilingual-e5-small",
+          "overflow_policy": "raise; do not silently truncate"
+        },
+        "extraction_status": "ok",
+        "normalized_characters": 3006
+      },
+      "cosine_distance": 0.21320102254154472,
+      "score": 0.7867989774584553,
+      "score_type": "cosine_similarity"
+    },
+    {
+      "rank": 3,
+      "strategy": "C",
+      "stored_strategy": "B",
+      "chunk_id": "da323880b6891b877c24dc59e74fa7838c45ea56b0ff5727d815961ee335da33",
+      "document_id": "esmap-annual-report-2021",
+      "source": "https://documents1.worldbank.org/curated/en/615511640189474271/pdf/Energy-Sector-Management-Assistance-Program-ESMAP-Annual-Report-2021.pdf",
+      "page": 63,
+      "text": "55\nRenewable Energy\nPhoto © Fred. Olsen Windcarrier\nVIETNAM\nOFFSHORE WIND ROADMAP\nThe program led pioneering activities in Vietnam, a country facing rapidly increasing demand, where\nthe power system is expected to double in size by 2030 and near-term energy supply shortfalls could\noccur. Its footprint of fossil fuels could increase, in fact, as coal accounts for 34 percent of power\ngeneration, which could rise by 55 percent unless course correction is carried out in the coming year.",
+      "metadata": {
+        "section": "Renewable Energy",
+        "chunking": {
+          "method": "by_paragraph",
+          "overlap": 0,
+          "version": 1,
+          "max_size": 500,
+          "boundaries": "blank_lines_and_uppercase_headings_then_sentence_word_hard"
+        },
+        "end_char": 487,
+        "start_char": 0,
+        "report_year": 2021,
+        "embedding_model": {
+          "files": [
+            {
+              "sha256": "ca456c06b3a9505ddfd9131408916dd79290368331e7d76bb621f1cba6bc8665",
+              "local_name": "model.onnx",
+              "remote_path": "onnx/model.onnx"
+            },
+            {
+              "sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+              "local_name": "tokenizer.json",
+              "remote_path": "tokenizer.json"
+            }
+          ],
+          "backend": "onnxruntime",
+          "license": "MIT (model repository metadata)",
+          "pooling": "attention_mask_mean",
+          "variant": "onnx/model.onnx (FP32, no quantization)",
+          "provider": "local",
+          "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+          "batch_size": 8,
+          "dimensions": 384,
+          "max_tokens": 512,
+          "model_name": "intfloat/multilingual-e5-small",
+          "cpu_threads": 4,
+          "query_prefix": "query: ",
+          "normalization": "L2",
+          "model_card_url": "https://huggingface.co/intfloat/multilingual-e5-small",
+          "document_prefix": "passage: ",
+          "local_directory": "models/multilingual-e5-small",
+          "overflow_policy": "raise; do not silently truncate"
+        },
+        "extraction_status": "ok",
+        "normalized_characters": 1143
+      },
+      "cosine_distance": 0.21373543780252768,
+      "score": 0.7862645621974723,
+      "score_type": "cosine_similarity"
+    }
+  ]
+}

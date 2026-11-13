@@ -1,0 +1,37 @@
+{
+  "A": {
+    "parameters": {
+      "method": "fixed_size",
+      "size": 500,
+      "overlap": 50
+    },
+    "pages": 38,
+    "chunk_count": 237,
+    "total_characters_in_chunks": 109015,
+    "min_characters": 76,
+    "median_characters": 500,
+    "mean_characters": 459.98,
+    "max_characters": 500,
+    "p10_characters": 278,
+    "p90_characters": 500,
+    "checks": "pass: source coverage, offsets, size, provenance, stable IDs; B has no overlap"
+  },
+  "B": {
+    "parameters": {
+      "method": "by_paragraph",
+      "max_size": 500,
+      "overlap": 0
+    },
+    "pages": 38,
+    "chunk_count": 270,
+    "total_characters_in_chunks": 98886,
+    "min_characters": 31,
+    "median_characters": 393.0,
+    "mean_characters": 366.24,
+    "max_characters": 499,
+    "p10_characters": 216,
+    "p90_characters": 485,
+    "checks": "pass: source coverage, offsets, size, provenance, stable IDs; B has no overlap"
+  },
+  "scope": "Chunking only; no embeddings, retrieval metrics or manual coherence labels"
+}

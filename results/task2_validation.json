@@ -1,0 +1,216 @@
+{
+  "benchmark_version": "esmap-benchmark-v1",
+  "status": "pass",
+  "questions": 20,
+  "split_counts": {
+    "dev": 15,
+    "test": 5
+  },
+  "filter_counts": {
+    "dev": 6,
+    "test": 2
+  },
+  "gold_page_overlap": [],
+  "evidence_in_corpus_count": 20,
+  "evidence_in_pdf_count": 20,
+  "retrieval_executed": false,
+  "errors": [],
+  "per_question": [
+    {
+      "id": "q01",
+      "split": "dev",
+      "gold_page": 65,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Renewable Energy"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q02",
+      "split": "dev",
+      "gold_page": 24,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Energy Data"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q03",
+      "split": "dev",
+      "gold_page": 25,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q04",
+      "split": "dev",
+      "gold_page": 29,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Foundations of Energy Transition"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q05",
+      "split": "dev",
+      "gold_page": 30,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q06",
+      "split": "dev",
+      "gold_page": 32,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q07",
+      "split": "dev",
+      "gold_page": 38,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Accelerating Decarbonization"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q08",
+      "split": "dev",
+      "gold_page": 40,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q09",
+      "split": "dev",
+      "gold_page": 43,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q10",
+      "split": "dev",
+      "gold_page": 46,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q11",
+      "split": "dev",
+      "gold_page": 47,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Clean Cooking"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q12",
+      "split": "dev",
+      "gold_page": 50,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Electricity Access"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q13",
+      "split": "dev",
+      "gold_page": 52,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q14",
+      "split": "dev",
+      "gold_page": 54,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q15",
+      "split": "dev",
+      "gold_page": 61,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q16",
+      "split": "test",
+      "gold_page": 23,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q17",
+      "split": "test",
+      "gold_page": 31,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q18",
+      "split": "test",
+      "gold_page": 41,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Accelerating Decarbonization"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q19",
+      "split": "test",
+      "gold_page": 55,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": null,
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    },
+    {
+      "id": "q20",
+      "split": "test",
+      "gold_page": 62,
+      "evidence_in_corpus": true,
+      "evidence_in_pdf": true,
+      "filter": {
+        "section": "Renewable Energy"
+      },
+      "semantic_review": "Authoring review recorded in verification_note; not an independent human assessment"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "search_type": "exact_cosine_in_pgvector",
+  "default_top_k": 3,
+  "checks": [
+    "A/B/C top-3",
+    "B/C without filter agree",
+    "section and combined filters",
+    "numeric cosine ranking matches SQL for B/C",
+    "unknown/SQL-like filter yields no matches",
+    "fewer than 3 candidates",
+    "invalid input rejection"
+  ],
+  "small_candidate_page": 43,
+  "small_candidate_results": 2,
+  "benchmark_executed": false,
+  "database_mutated": false
+}

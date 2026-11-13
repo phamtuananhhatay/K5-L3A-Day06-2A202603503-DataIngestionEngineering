@@ -1,0 +1,96 @@
+{
+  "metrics": [
+    {
+      "strategy": "A",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 6,
+        "denominator": 15,
+        "value": 0.4
+      },
+      "evidence_hit_at_3": {
+        "numerator": 8,
+        "denominator": 15,
+        "value": 0.5333333333333333
+      },
+      "filter_compliance": {
+        "numerator": 3,
+        "denominator": 6,
+        "value": 0.5
+      },
+      "miss_question_ids": [
+        "q01",
+        "q02",
+        "q03",
+        "q07",
+        "q08",
+        "q09",
+        "q13"
+      ]
+    },
+    {
+      "strategy": "B",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 8,
+        "denominator": 15,
+        "value": 0.5333333333333333
+      },
+      "evidence_hit_at_3": {
+        "numerator": 10,
+        "denominator": 15,
+        "value": 0.6666666666666666
+      },
+      "filter_compliance": {
+        "numerator": 3,
+        "denominator": 6,
+        "value": 0.5
+      },
+      "miss_question_ids": [
+        "q01",
+        "q03",
+        "q07",
+        "q08",
+        "q13"
+      ]
+    },
+    {
+      "strategy": "C",
+      "split": "dev",
+      "questions": 15,
+      "hit_at_1": {
+        "numerator": 9,
+        "denominator": 15,
+        "value": 0.6
+      },
+      "evidence_hit_at_3": {
+        "numerator": 10,
+        "denominator": 15,
+        "value": 0.6666666666666666
+      },
+      "filter_compliance": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "miss_question_ids": [
+        "q01",
+        "q03",
+        "q07",
+        "q08",
+        "q13"
+      ]
+    }
+  ],
+  "note": "Dev evidence reviewed against source under a documented policy, then replayed with original plus accepted equivalent quotes; not independent human grounding/coherence assessment",
+  "scope": "reviewed dev only",
+  "reviewer": "Codex (AI-assisted evidence review, not independent human assessment)",
+  "trace_count": 45,
+  "ranked_chunks_reviewed": 135,
+  "changed_chunk_labels": 3,
+  "test_executed": false,
+  "retrieval_rerun": false,
+  "human_grounding_or_coherence_labels_created": false
+}

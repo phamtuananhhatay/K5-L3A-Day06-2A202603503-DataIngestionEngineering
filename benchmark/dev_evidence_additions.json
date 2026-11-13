@@ -1,0 +1,24 @@
+{
+  "version": "dev-evidence-review-v1",
+  "scope": "dev only, recorded after inspecting dev retrieval and before any test run",
+  "reviewer": "Codex, AI-assisted; not independent human review",
+  "questions_unchanged": true,
+  "additions": {
+    "q02": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 24,
+        "evidence_quote": "• Indicator 7.1.1: Proportion of population with access to electricity. • Indicator 7.1.2: Proportion of population with primary reliance on clean fuels and technology.",
+        "reason": "Đủ cả hai chỉ số có mã 7.1.1/7.1.2, xác định rõ Target 7.1 dù không lặp lại câu dẫn. Không bỏ bất kỳ ý cần trả lời nào."
+      }
+    ],
+    "q15": [
+      {
+        "source_id": "esmap-annual-report-2021",
+        "page": 61,
+        "evidence_quote": "suggests that the rooftop solar installations could save SENELEC approximately €4.5 million over a 20-year period; that the installations could meet 116 percent of their electricity needs of these buildings; and that they would have a five-year payback period.",
+        "reason": "Đủ chủ thể SENELEC/solar rooftop, tính ước tính, 4,5 triệu euro, thời hạn 20 năm và hoàn vốn 5 năm. Chỉ lược phần mở đầu Economic analysis for these potential installations."
+      }
+    ]
+  }
+}
